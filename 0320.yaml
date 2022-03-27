@@ -5,155 +5,375 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TG频道moneyflychat, server: jp48-zz.ddns.177588.xyz, port: 10208, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: jp48zz.ddns.177588.xyz}, udp: true}
-  - {name: HK-43.154.33.229-13, server: 43.154.33.229, port: 80, type: vmess, uuid: 329c1796-3292-471e-b41c-cc3b2ae37bd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.154.33.229}, udp: true}
-  - {name: HK-112.65.52.19-16, server: lt500.ddns.566366.xyz, port: 10097, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: ipc-1-50.ddns.566366.xyz}, udp: true}
-  - {name: HK-20.205.8.109-22, server: kr.rnmtq.gq, port: 63470, type: vmess, uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.rnmtq.gq}, udp: true}
-  - {name: HK-139.219.130.70-25, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: 土耳其-×3-特殊用途-请使用其他节点, server: tr.ddns.177588.xyz, port: 30110, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: tr.ddns.177588.xyz}, udp: true}
-  - {name: 新加坡60-ZZ-×3, server: sgzz01-linode.ddns.566366.xyz, port: 901, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: sgld.ddns.566366.xyz}, udp: true}
-  - {name: 新加坡61-ZZ-×3, server: sgzz02-linode.ddns.566366.xyz, port: 902, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: sgld.ddns.566366.xyz}, udp: true}
-  - {name: 新加坡63-ZZ-×3, server: sg63-v2-zz.ddns.177588.xyz, port: 663, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: sg63-v2.ddns.177588.xyz}, udp: true}
-  - {name: 新加坡74-ZZ-×2.5, server: 90lisui.ddns.566366.xyz, port: 1101, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: 90lisui.ddns.566366.xyz}, udp: true}
-  - {name: 日本48-ZZ-×2, server: jp48-zz.ddns.177588.xyz, port: 10208, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: jp48zz.ddns.177588.xyz}, udp: true}
-  - {name: 日本61-ZZ-NTT-×3, server: jp61zz.ddns.566366.xyz, port: 20002, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: jp61.ddns.566366.xyz}, udp: true}
-  - {name: 日本62-ZZ-NTT-×3, server: jp62zz.ddns.566366.xyz, port: 10098, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: jp62.ddns.566366.xyz}, udp: true}
-  - {name: 日本63-ZZ-NTT-×3, server: jp63zz.ddns.566366.xyz, port: 10099, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: jp63.ddns.566366.xyz}, udp: true}
-  - {name: 美国01-GIA-×2.5, server: ua01-zz.ddns.177588.xyz, port: 10215, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /down, ws-headers: {Host: ua01zz.ddns.177588.xyz}, udp: true}
-  - {name: 菲律宾02-ZZ-IPC-×2.5, server: lt500.ddns.566366.xyz, port: 10097, type: vmess, uuid: 307137ef-9670-3b05-b8c3-0f19a89199e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wmsxwd, ws-headers: {Host: ipc-1-50.ddns.566366.xyz}, udp: true}
-  - {name: Ali-港CN2-3, server: hk3.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: Ali-港CN2-4, server: hk4.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: Ali-港CN2-5, server: hk5.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: Ali-港CN2-8, server: hk8.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: Ali-新CN2-1, server: sp1.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: justhost-ru-2 新西伯利亚, server: ru2.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: justhost-ru-3 新西伯利亚ttk, server: ru3.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: 美 洛杉矶 CN2 极速, server: us1.peakerselling.com, port: 443, type: vmess, uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /helloman, ws-headers: {Host: https://t.me/p2psharing}, udp: true}
-  - {name: vmc, server: vmc.geekerxu.tk, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: vmc.geekerxu.tk}, udp: true}
-  - {name: ccc, server: ccc.geekerxu.tk, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: ccc.geekerxu.tk}, udp: true}
-  - {name: o1c, server: o1c.geekerxu.tk, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: o1c.geekerxu.tk}, udp: true}
-  - {name: vmc优选联通, server: 104.18.96.129, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: vmc.geekerxu.tk}, udp: true}
-  - {name: ccc优选联通, server: 104.18.99.105, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: ccc.geekerxu.tk}, udp: true}
-  - {name: o1c优选联通, server: 104.18.145.227, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: o1c.geekerxu.tk}, udp: true}
-  - {name: vmc优选移动, server: 190.93.244.225, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: vmc.geekerxu.tk}, udp: true}
-  - {name: ccc优选移动, server: 162.159.132.117, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: ccc.geekerxu.tk}, udp: true}
-  - {name: o1c优选移动, server: 188.114.97.226, port: 443, type: vmess, uuid: be88abcf-6222-4e63-8f29-381d9f705593, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /geekerxu, ws-headers: {Host: o1c.geekerxu.tk}, udp: true}
+  - {name: 澳大利亚, server: 183.232.56.161, port: 1212, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 澳大利亚 2, server: 183.232.56.161, port: 1211, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 迪拜, server: 52.131.222.178, port: 51011, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 迪拜 2, server: 52.131.222.178, port: 51012, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 迪拜 3, server: 183.232.56.161, port: 1122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 迪拜 4, server: 183.232.56.161, port: 1123, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 德国, server: 183.232.56.161, port: 6112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 德国 2, server: 183.232.56.161, port: 6111, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 德国 3, server: 185.217.108.182, port: 2086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 德国 4, server: 185.217.108.182, port: 1082, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港, server: 183.232.56.161, port: 1051, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 2, server: 52.131.222.178, port: 31417, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 3, server: 183.232.56.161, port: 1611, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 4, server: 183.232.56.161, port: 1612, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 5, server: 183.232.56.161, port: 1615, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 6, server: 101.230.149.1, port: 1053, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 7, server: 52.131.222.178, port: 31414, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 8, server: 183.232.56.161, port: 1052, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 9, server: 218.102.107.218, port: 9087, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 10, server: 119.236.128.198, port: 4087, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 香港 11, server: 183.232.56.161, port: 1101, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 印度, server: 171.34.207.128, port: 1103, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 印度 2, server: 171.34.207.128, port: 1101, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 印度 3, server: 183.232.56.161, port: 8004, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 印度 4, server: 171.34.207.128, port: 1102, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 印度尼西亚, server: 183.232.56.161, port: 1951, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 印度尼西亚 2, server: 183.232.56.161, port: 1952, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本, server: 52.131.222.178, port: 31125, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本 2, server: 101.230.149.1, port: 1021, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本 3, server: 52.131.222.178, port: 31126, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本 4, server: 183.232.56.161, port: 1304, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本 5, server: 183.232.56.161, port: 1303, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本 6, server: 183.232.56.161, port: 1202, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本 7, server: 101.230.149.1, port: 1022, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 日本 8, server: 183.232.56.161, port: 1201, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 韩国, server: 183.232.56.161, port: 1603, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 韩国 2, server: 183.232.56.161, port: 1601, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 韩国 3, server: 52.131.222.178, port: 31313, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 韩国 4, server: 183.232.56.161, port: 1602, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 韩国 5, server: 52.131.222.178, port: 31416, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 韩国 6, server: 183.232.56.161, port: 1605, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 马来西亚, server: 183.232.56.161, port: 5019, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 马来西亚 2, server: 183.232.56.161, port: 5018, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 菲律宾, server: 183.232.56.161, port: 9112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 菲律宾 2, server: 183.232.56.161, port: 9111, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 俄罗斯, server: 52.131.222.178, port: 21013, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 俄罗斯 2, server: 183.232.56.161, port: 1112, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 俄罗斯 3, server: 183.232.56.161, port: 1111, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 沙特阿拉伯, server: 183.232.56.161, port: 1901, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 沙特阿拉伯 2, server: 183.232.56.161, port: 1900, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡, server: 52.131.222.178, port: 31024, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 2, server: 183.232.56.161, port: 5001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 3, server: 101.230.149.1, port: 1504, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 4, server: 101.230.149.1, port: 1501, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 5, server: 101.230.149.1, port: 1011, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 6, server: 101.230.149.1, port: 1501, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 7, server: 183.232.56.161, port: 1500, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 8, server: 101.230.149.1, port: 8099, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 9, server: 101.230.149.1, port: 1503, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 新加坡 10, server: 183.232.56.161, port: 5000, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾, server: 183.232.56.161, port: 3099, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾 2, server: 183.232.56.161, port: 1301, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾 3, server: 183.232.56.161, port: 4099, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾 4, server: 101.230.149.1, port: 1001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾 5, server: 101.230.149.1, port: 1002, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾 6, server: 183.232.56.161, port: 1302, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 台湾 7, server: 114.37.177.162, port: 5085, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 泰国, server: 183.232.56.161, port: 9121, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 泰国 2, server: 183.232.56.161, port: 9122, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: Turkey, server: 183.232.56.161, port: 1312, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: Turkey 2, server: 183.232.56.161, port: 1311, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 英国, server: 183.232.56.161, port: 1802, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 英国 2, server: 183.232.56.161, port: 1801, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 英国 3, server: 185.212.63.98, port: 2081, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 英国 4, server: 185.212.63.98, port: 1081, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国, server: 154.17.2.3, port: 4088, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 2, server: 154.17.18.63, port: 3097, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 3, server: 192.155.83.178, port: 1080, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 4, server: 154.17.19.224, port: 6086, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 5, server: 154.17.18.191, port: 1095, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 6, server: 154.17.25.49, port: 2089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 7, server: 154.17.19.73, port: 5089, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 8, server: 183.232.56.161, port: 1704, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 9, server: 183.232.56.161, port: 1700, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 10, server: 183.232.56.161, port: 1703, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 美国 11, server: 183.232.56.161, port: 1706, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 越南, server: 183.232.56.161, port: 3002, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 越南 2, server: 183.232.56.161, port: 3001, type: vmess, uuid: bfd2cb06-5cd7-3203-b414-17a809396898, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,163 +392,379 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -344,39 +780,94 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG频道moneyflychat
-      - HK-43.154.33.229-13
-      - HK-112.65.52.19-16
-      - HK-20.205.8.109-22
-      - HK-139.219.130.70-25
-      - 土耳其-×3-特殊用途-请使用其他节点
-      - 新加坡60-ZZ-×3
-      - 新加坡61-ZZ-×3
-      - 新加坡63-ZZ-×3
-      - 新加坡74-ZZ-×2.5
-      - 日本48-ZZ-×2
-      - 日本61-ZZ-NTT-×3
-      - 日本62-ZZ-NTT-×3
-      - 日本63-ZZ-NTT-×3
-      - 美国01-GIA-×2.5
-      - 菲律宾02-ZZ-IPC-×2.5
-      - Ali-港CN2-3
-      - Ali-港CN2-4
-      - Ali-港CN2-5
-      - Ali-港CN2-8
-      - Ali-新CN2-1
-      - justhost-ru-2 新西伯利亚
-      - justhost-ru-3 新西伯利亚ttk
-      - 美 洛杉矶 CN2 极速
-      - vmc
-      - ccc
-      - o1c
-      - vmc优选联通
-      - ccc优选联通
-      - o1c优选联通
-      - vmc优选移动
-      - ccc优选移动
-      - o1c优选移动
+      - 澳大利亚
+      - 澳大利亚 2
+      - 迪拜
+      - 迪拜 2
+      - 迪拜 3
+      - 迪拜 4
+      - 德国
+      - 德国 2
+      - 德国 3
+      - 德国 4
+      - 香港
+      - 香港 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
+      - 香港 7
+      - 香港 8
+      - 香港 9
+      - 香港 10
+      - 香港 11
+      - 印度
+      - 印度 2
+      - 印度 3
+      - 印度 4
+      - 印度尼西亚
+      - 印度尼西亚 2
+      - 日本
+      - 日本 2
+      - 日本 3
+      - 日本 4
+      - 日本 5
+      - 日本 6
+      - 日本 7
+      - 日本 8
+      - 韩国
+      - 韩国 2
+      - 韩国 3
+      - 韩国 4
+      - 韩国 5
+      - 韩国 6
+      - 马来西亚
+      - 马来西亚 2
+      - 菲律宾
+      - 菲律宾 2
+      - 俄罗斯
+      - 俄罗斯 2
+      - 俄罗斯 3
+      - 沙特阿拉伯
+      - 沙特阿拉伯 2
+      - 新加坡
+      - 新加坡 2
+      - 新加坡 3
+      - 新加坡 4
+      - 新加坡 5
+      - 新加坡 6
+      - 新加坡 7
+      - 新加坡 8
+      - 新加坡 9
+      - 新加坡 10
+      - 台湾
+      - 台湾 2
+      - 台湾 3
+      - 台湾 4
+      - 台湾 5
+      - 台湾 6
+      - 台湾 7
+      - 泰国
+      - 泰国 2
+      - Turkey
+      - Turkey 2
+      - 英国
+      - 英国 2
+      - 英国 3
+      - 英国 4
+      - 美国
+      - 美国 2
+      - 美国 3
+      - 美国 4
+      - 美国 5
+      - 美国 6
+      - 美国 7
+      - 美国 8
+      - 美国 9
+      - 美国 10
+      - 美国 11
+      - 越南
+      - 越南 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -1667,7 +2158,7 @@ rules:
  - DOMAIN-SUFFIX,adss.yahoo.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adstat.cp11.ott.cibntv.net,🛑 全球拦截
  - DOMAIN-SUFFIX,adstextview.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adstil.indiatimes.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,adstil.印度times.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
  - DOMAIN-SUFFIX,adstream.123.sogoucdn.com,🛑 全球拦截
  - DOMAIN-SUFFIX,ads-twitter.com,🛑 全球拦截
@@ -2139,7 +2630,7 @@ rules:
  - DOMAIN-SUFFIX,banners.beted.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banners.cams.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banners.clubworldgroup.com,🛑 全球拦截
- - DOMAIN-SUFFIX,banners.expressindia.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,banners.express印度.com,🛑 全球拦截
  - DOMAIN-SUFFIX,banners.itweb.co.za,🛑 全球拦截
  - DOMAIN-SUFFIX,banners.playocio.com,🛑 全球拦截
  - DOMAIN-SUFFIX,bannershotlink.perfectgonzo.com,🛑 全球拦截
@@ -2474,7 +2965,7 @@ rules:
  - DOMAIN-SUFFIX,cache-ssl.celtra.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cad.chosun.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cadvv.heraldm.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cadvv.koreaherald.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,cadvv.韩国herald.com,🛑 全球拦截
  - DOMAIN-SUFFIX,caiyifz.com,🛑 全球拦截
  - DOMAIN-SUFFIX,cal.meizu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,caliyuna.cn,🛑 全球拦截
@@ -5862,7 +6353,7 @@ rules:
  - DOMAIN-SUFFIX,net.rayjump.com,🛑 全球拦截
  - DOMAIN-SUFFIX,netko0o.com,🛑 全球拦截
  - DOMAIN-SUFFIX,netshelter.net,🛑 全球拦截
- - DOMAIN-SUFFIX,netspidermm.indiatimes.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,netspidermm.印度times.com,🛑 全球拦截
  - DOMAIN-SUFFIX,network.aufeminin.com,🛑 全球拦截
  - DOMAIN-SUFFIX,network.business.com,🛑 全球拦截
  - DOMAIN-SUFFIX,network.sofeminine.co.uk,🛑 全球拦截
@@ -9939,7 +10430,7 @@ rules:
  - DOMAIN-SUFFIX,ipfs.io,🔰 节点选择
  - DOMAIN-SUFFIX,issuu.com,🔰 节点选择
  - DOMAIN-SUFFIX,istockphoto.com,🔰 节点选择
- - DOMAIN-SUFFIX,japantimes.co.jp,🔰 节点选择
+ - DOMAIN-SUFFIX,日本times.co.jp,🔰 节点选择
  - DOMAIN-SUFFIX,jiji.com,🔰 节点选择
  - DOMAIN-SUFFIX,jinx.com,🔰 节点选择
  - DOMAIN-SUFFIX,jkforum.net,🔰 节点选择
