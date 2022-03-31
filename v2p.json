@@ -1,0 +1,62 @@
+{
+  "name": "中青重写订阅",
+  "author": "elecV2p",
+  "mitmhost": ["kandian.wkandian.com"],
+  "rewrite": [
+    {
+      "match": "https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js",
+      "enable": true
+    },
+    {
+      "match": "https:\/\/kandian\.wkandian\.com\/v5\/article\/info\.json",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js",
+      "enable": true
+    },
+    {
+      "match": "https:\/\/kandian\.wkandian\.com\/v5\/user\/stay\.json",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js",
+      "enable": true
+    }, 
+    {
+      "match": "https:\/\/kandian\.wkandian\.com\/v5\/task\/browse_start\.json",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js",
+      "enable": true
+    },
+    {
+      "match": "https:\/\/kandian\.wkandian\.com\/v5\/Nameless\/adlickstart\.json",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js",
+      "enable": true
+    }
+    ,
+    {
+      "match": "https:\/\/kandian\.wkandian\.com\/v5\/\w+\/withdraw\d?\.json",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js",
+      "enable": true
+    }
+    ,
+    {
+      "match": "https:\/\/kandian\.wkandian\.com\/v5\/article\/complete\.json",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js",
+      "enable": true
+    }
+     ,
+    {
+      "match": "https:\/\/kandian\.wkandian\.com/v5\/user\/stay\.json",
+      "target": "https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js",
+      "enable": true
+    } 
+    ,
+    {
+      "match": "https://kandian.wkandian.com/v5/task/browse_start.json",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqllz.js",
+      "enable": true
+    }
+    ,
+    {
+      "match": "https://kandian.wkandian.com/v5/Sousuo/playStart.json",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js",
+      "enable": true
+    }
+  ]
+}
