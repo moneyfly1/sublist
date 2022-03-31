@@ -3,15 +3,15 @@
     "description": "https://github.com/Sunert/Scripts", 
     "task": [
         {
-            "config": "20 11 8 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "config": "20 11 8 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
         }, 
         {
-            "config": "20 15 */2 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "config": "20 15 */2 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/Youth_Read.js, tag=中青自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_youthread.txt, tag=中青阅读, update-interval=-1, opt-parser=false, enabled=true"
         }, 
         {
-            "config": "20 5 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
+            "config": "20 5 10 * * * https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/youth_gain.js, tag=中青浏览赚, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png, enabled=true", 
             "addons": "https://raw.githubusercontent.com/Sunert/Scripts/master/TaskConf/youth/qx_rewite.txt, tag=中青看点, update-interval=-1, opt-parser=false, enabled=true"
         }
     ]
