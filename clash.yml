@@ -18,6 +18,18 @@ proxies:
   - {name: "HK, 2", server: 3.112.131.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP, 2", server: 13.212.53.180, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: "JP, 3", server: 54.168.241.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 日本 01, server: jp01.internetsmartrouting.top, port: 20090, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 日本 02, server: jp02.internetsmartrouting.top, port: 23621, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 韩国 01, server: korea01.internetsmartrouting.top, port: 20562, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 美国 02, server: us02.internetsmartrouting.top, port: 20666, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 新加坡 01, server: sgp01.internetsmartrouting.top, port: 26889, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 新加坡 02, server: sgp-bgp.internetsmartrouting.top, port: 20021, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 香港 01, server: hk01.internetsmartrouting.top, port: 20569, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 香港 02, server: hk02.internetsmartrouting.top, port: 20606, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 香港 03, server: hk03.internetsmartrouting.top, port: 31690, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 香港 04, server: hk04.internetsmartrouting.top, port: 46889, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 香港 05, server: hk05.internetsmartrouting.top, port: 25241, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
+  - {name: 香港 06, server: hk06.internetsmartrouting.top, port: 23685, type: vmess, uuid: 8bb2c65b-d811-4f09-9b81-3f309022feb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /Patti$Freud$4Clubs$spendable$lamar7$mollie7, ws-headers: {Host: apple.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -37,6 +49,18 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -55,6 +79,18 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -74,6 +110,18 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -105,10 +153,28 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -128,6 +194,18 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
   - name: 📲 电报信息
     type: select
     proxies:
@@ -146,6 +224,18 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -165,6 +255,18 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,6 +295,18 @@ proxy-groups:
       - HK, 2
       - JP, 2
       - JP, 3
+      - 日本 01
+      - 日本 02
+      - 韩国 01
+      - 美国 02
+      - 新加坡 01
+      - 新加坡 02
+      - 香港 01
+      - 香港 02
+      - 香港 03
+      - 香港 04
+      - 香港 05
+      - 香港 06
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
