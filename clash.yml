@@ -5,36 +5,15 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 深港, server: 120.232.251.206, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 广港01, server: 183.240.9.28, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 广港02, server: 183.240.9.29, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 广港03, server: 183.240.9.30, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇭🇰 广港04, server: 183.240.9.31, port: 29980, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 深新, server: 120.232.251.206, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新01, server: 183.240.9.28, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新02, server: 183.240.9.28, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新03, server: 183.240.9.28, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新04, server: 183.240.9.28, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新05, server: 183.240.9.28, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新06, server: 183.240.9.28, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新07, server: 183.240.9.29, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新08, server: 183.240.9.29, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新09, server: 183.240.9.29, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新10, server: 183.240.9.29, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新11, server: 183.240.9.29, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新12, server: 183.240.9.29, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新13, server: 183.240.9.30, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新14, server: 183.240.9.30, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新15, server: 183.240.9.30, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新16, server: 183.240.9.30, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新17, server: 183.240.9.30, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新18, server: 183.240.9.30, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新19, server: 183.240.9.31, port: 29979, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新20, server: 183.240.9.31, port: 29982, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新21, server: 183.240.9.31, port: 29983, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新22, server: 183.240.9.31, port: 29984, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新23, server: 183.240.9.31, port: 29987, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
-  - {name: 🇸🇬 广新24, server: 183.240.9.31, port: 29988, type: http, username: 442993652168396800, password: 2ef91648-089f-4c81-b34d-06f072ec51dd, tls: true, skip-cert-verify: true}
+  - {name: 🇺🇸 ★美国加州A★年付专线, server: 142.4.120.9, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.55004117.xyz}}}
+  - {name: 🇭🇰 ★中国香港A★年付专线, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}}
+  - {name: 🇬🇧 英国伦敦B, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.73788846.xyz}}}
+  - {name: 🇸🇪 瑞典, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}}
+  - {name: 🇫🇮 芬兰, server: 154.84.1.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.05222027.xyz}}}
+  - {name: 🇱🇺 卢森堡, server: 154.84.1.195, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.57556953.xyz}}}
+  - {name: 🇧🇪 比利时, server: 198.2.200.116, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.68478520.xyz}}}
+  - {name: 🇪🇬 埃及开罗, server: 23.224.69.21, port: 443, type: vmess, uuid: 946ba5df-5771-4873-a3cb-892378526147, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.73788846.xyz}}}
+  - {name: 🇲🇩 摩尔多瓦, server: 46.182.107.81, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/181012123433, headers: {Host: www.52833977.xyz}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -43,143 +22,59 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇭🇰 深港
-      - 🇭🇰 广港01
-      - 🇭🇰 广港02
-      - 🇭🇰 广港03
-      - 🇭🇰 广港04
-      - 🇸🇬 深新
-      - 🇸🇬 广新01
-      - 🇸🇬 广新02
-      - 🇸🇬 广新03
-      - 🇸🇬 广新04
-      - 🇸🇬 广新05
-      - 🇸🇬 广新06
-      - 🇸🇬 广新07
-      - 🇸🇬 广新08
-      - 🇸🇬 广新09
-      - 🇸🇬 广新10
-      - 🇸🇬 广新11
-      - 🇸🇬 广新12
-      - 🇸🇬 广新13
-      - 🇸🇬 广新14
-      - 🇸🇬 广新15
-      - 🇸🇬 广新16
-      - 🇸🇬 广新17
-      - 🇸🇬 广新18
-      - 🇸🇬 广新19
-      - 🇸🇬 广新20
-      - 🇸🇬 广新21
-      - 🇸🇬 广新22
-      - 🇸🇬 广新23
-      - 🇸🇬 广新24
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 ★中国香港A★年付专线
+      - 🇬🇧 英国伦敦B
+      - 🇸🇪 瑞典
+      - 🇫🇮 芬兰
+      - 🇱🇺 卢森堡
+      - 🇧🇪 比利时
+      - 🇪🇬 埃及开罗
+      - 🇲🇩 摩尔多瓦
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 深港
-      - 🇭🇰 广港01
-      - 🇭🇰 广港02
-      - 🇭🇰 广港03
-      - 🇭🇰 广港04
-      - 🇸🇬 深新
-      - 🇸🇬 广新01
-      - 🇸🇬 广新02
-      - 🇸🇬 广新03
-      - 🇸🇬 广新04
-      - 🇸🇬 广新05
-      - 🇸🇬 广新06
-      - 🇸🇬 广新07
-      - 🇸🇬 广新08
-      - 🇸🇬 广新09
-      - 🇸🇬 广新10
-      - 🇸🇬 广新11
-      - 🇸🇬 广新12
-      - 🇸🇬 广新13
-      - 🇸🇬 广新14
-      - 🇸🇬 广新15
-      - 🇸🇬 广新16
-      - 🇸🇬 广新17
-      - 🇸🇬 广新18
-      - 🇸🇬 广新19
-      - 🇸🇬 广新20
-      - 🇸🇬 广新21
-      - 🇸🇬 广新22
-      - 🇸🇬 广新23
-      - 🇸🇬 广新24
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 ★中国香港A★年付专线
+      - 🇬🇧 英国伦敦B
+      - 🇸🇪 瑞典
+      - 🇫🇮 芬兰
+      - 🇱🇺 卢森堡
+      - 🇧🇪 比利时
+      - 🇪🇬 埃及开罗
+      - 🇲🇩 摩尔多瓦
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 深港
-      - 🇭🇰 广港01
-      - 🇭🇰 广港02
-      - 🇭🇰 广港03
-      - 🇭🇰 广港04
-      - 🇸🇬 深新
-      - 🇸🇬 广新01
-      - 🇸🇬 广新02
-      - 🇸🇬 广新03
-      - 🇸🇬 广新04
-      - 🇸🇬 广新05
-      - 🇸🇬 广新06
-      - 🇸🇬 广新07
-      - 🇸🇬 广新08
-      - 🇸🇬 广新09
-      - 🇸🇬 广新10
-      - 🇸🇬 广新11
-      - 🇸🇬 广新12
-      - 🇸🇬 广新13
-      - 🇸🇬 广新14
-      - 🇸🇬 广新15
-      - 🇸🇬 广新16
-      - 🇸🇬 广新17
-      - 🇸🇬 广新18
-      - 🇸🇬 广新19
-      - 🇸🇬 广新20
-      - 🇸🇬 广新21
-      - 🇸🇬 广新22
-      - 🇸🇬 广新23
-      - 🇸🇬 广新24
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 ★中国香港A★年付专线
+      - 🇬🇧 英国伦敦B
+      - 🇸🇪 瑞典
+      - 🇫🇮 芬兰
+      - 🇱🇺 卢森堡
+      - 🇧🇪 比利时
+      - 🇪🇬 埃及开罗
+      - 🇲🇩 摩尔多瓦
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇭🇰 深港
-      - 🇭🇰 广港01
-      - 🇭🇰 广港02
-      - 🇭🇰 广港03
-      - 🇭🇰 广港04
-      - 🇸🇬 深新
-      - 🇸🇬 广新01
-      - 🇸🇬 广新02
-      - 🇸🇬 广新03
-      - 🇸🇬 广新04
-      - 🇸🇬 广新05
-      - 🇸🇬 广新06
-      - 🇸🇬 广新07
-      - 🇸🇬 广新08
-      - 🇸🇬 广新09
-      - 🇸🇬 广新10
-      - 🇸🇬 广新11
-      - 🇸🇬 广新12
-      - 🇸🇬 广新13
-      - 🇸🇬 广新14
-      - 🇸🇬 广新15
-      - 🇸🇬 广新16
-      - 🇸🇬 广新17
-      - 🇸🇬 广新18
-      - 🇸🇬 广新19
-      - 🇸🇬 广新20
-      - 🇸🇬 广新21
-      - 🇸🇬 广新22
-      - 🇸🇬 广新23
-      - 🇸🇬 广新24
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 ★中国香港A★年付专线
+      - 🇬🇧 英国伦敦B
+      - 🇸🇪 瑞典
+      - 🇫🇮 芬兰
+      - 🇱🇺 卢森堡
+      - 🇧🇪 比利时
+      - 🇪🇬 埃及开罗
+      - 🇲🇩 摩尔多瓦
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -199,36 +94,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇭🇰 深港
-      - 🇭🇰 广港01
-      - 🇭🇰 广港02
-      - 🇭🇰 广港03
-      - 🇭🇰 广港04
-      - 🇸🇬 深新
-      - 🇸🇬 广新01
-      - 🇸🇬 广新02
-      - 🇸🇬 广新03
-      - 🇸🇬 广新04
-      - 🇸🇬 广新05
-      - 🇸🇬 广新06
-      - 🇸🇬 广新07
-      - 🇸🇬 广新08
-      - 🇸🇬 广新09
-      - 🇸🇬 广新10
-      - 🇸🇬 广新11
-      - 🇸🇬 广新12
-      - 🇸🇬 广新13
-      - 🇸🇬 广新14
-      - 🇸🇬 广新15
-      - 🇸🇬 广新16
-      - 🇸🇬 广新17
-      - 🇸🇬 广新18
-      - 🇸🇬 广新19
-      - 🇸🇬 广新20
-      - 🇸🇬 广新21
-      - 🇸🇬 广新22
-      - 🇸🇬 广新23
-      - 🇸🇬 广新24
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 ★中国香港A★年付专线
+      - 🇬🇧 英国伦敦B
+      - 🇸🇪 瑞典
+      - 🇫🇮 芬兰
+      - 🇱🇺 卢森堡
+      - 🇧🇪 比利时
+      - 🇪🇬 埃及开罗
+      - 🇲🇩 摩尔多瓦
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
