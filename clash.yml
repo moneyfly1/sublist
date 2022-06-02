@@ -5,20 +5,178 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇰🇷 KR, Incheon", server: 13.212.83.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇺🇸 US, Dallas 2", server: 54.213.250.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇭🇰 HK, Kowloon", server: 54.238.232.202, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇺🇸 US, Houston", server: 15.165.18.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇯🇵 JP, Tokyo", server: 3.38.253.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇺🇸 US, Los Angeles", server: 65.49.193.51, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr01}
-  - {name: "🇨🇦 CA, Vancouver", server: 13.125.218.170, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇺🇸 US, Dallas", server: 97.64.28.52, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr03}
-  - {name: "🇺🇸 US, California", server: 172.96.192.100, port: 246, type: ss, cipher: aes-256-cfb, password: bwhskrskr05}
-  - {name: "🇯🇵 JP, Tokyo 2", server: 13.125.228.252, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇭🇰 HK, New Territories", server: 3.39.236.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇨🇳 TW, Taipei", server: 54.248.212.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇸🇬 SG, Singapore", server: 13.230.223.109, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: "🇯🇵 JP, Osaka", server: 43.200.6.115, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: GLaDOS-N2-31, server: c0fd425.pb.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-10, server: 5fc3d08.ga.gladns.com, port: 3382, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-12, server: 5fc3d08.gc.gladns.com, port: 3384, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-00, server: 32e3a78.ga.gladns.com, port: 3384, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-32, server: c0fd425.gc.gladns.com, port: 3385, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-17, server: 5fc3d08.ph.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-30, server: c0fd425.ga.gladns.com, port: 3384, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-12, server: 5fc3d08.pc.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-31, server: c0fd425.gb.gladns.com, port: 3384, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-07, server: 32e3a78.ph.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-30, server: c0fd425.ga.gladns.com, port: 3385, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-20, server: 0a39e00.pa.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-02, server: 32e3a78.gc.gladns.com, port: 3384, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-34, server: c0fd425.pe.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-31, server: c0fd425.gb.gladns.com, port: 3385, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-21, server: 0a39e00.gb.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-11, server: 5fc3d08.pb.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-25, server: 0a39e00.pf.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-10, server: 5fc3d08.ga.gladns.com, port: 3385, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-05, server: 32e3a78.pf.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-11, server: 5fc3d08.gb.gladns.com, port: 3385, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-22, server: 0a39e00.gc.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-23, server: 0a39e00.pd.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-04, server: 32e3a78.pe.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-22, server: 0a39e00.gc.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-33, server: c0fd425.pd.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-10, server: 5fc3d08.pa.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-21, server: 0a39e00.gb.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-31, server: c0fd425.gb.gladns.com, port: 3382, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-20, server: 0a39e00.ga.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-20, server: 0a39e00.ga.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-32, server: c0fd425.pc.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-32, server: c0fd425.gc.gladns.com, port: 3383, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-24, server: 0a39e00.pe.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-22, server: 0a39e00.pc.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-30, server: c0fd425.pa.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-28, server: 0a39e00.pi.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-02, server: 32e3a78.gc.gladns.com, port: 3385, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-12, server: 5fc3d08.gc.gladns.com, port: 3385, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-00, server: 32e3a78.ga.gladns.com, port: 3382, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-32, server: c0fd425.gc.gladns.com, port: 3384, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-01, server: 32e3a78.gb.gladns.com, port: 3382, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-11, server: 5fc3d08.gb.gladns.com, port: 3382, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-22, server: 0a39e00.gc.gladns.com, port: 3382, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-12, server: 5fc3d08.gc.gladns.com, port: 3382, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-30, server: c0fd425.ga.gladns.com, port: 3382, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-35, server: c0fd425.pf.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-20, server: 0a39e00.ga.gladns.com, port: 3382, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-21, server: 0a39e00.gb.gladns.com, port: 3382, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-32, server: c0fd425.gc.gladns.com, port: 3382, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-14, server: 5fc3d08.pe.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-21, server: 0a39e00.pb.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-01, server: 32e3a78.pb.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-02, server: 32e3a78.pc.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-16, server: 5fc3d08.pg.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-00, server: 32e3a78.pa.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-01 2, server: 32e3a78.pb.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-02 2, server: 32e3a78.pc.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-03, server: 32e3a78.pd.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-04 2, server: 32e3a78.pe.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-05 2, server: 32e3a78.pf.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-06, server: 32e3a78.pg.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-07 2, server: 32e3a78.ph.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-08, server: 32e3a78.pi.gladns.com, port: 3389, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-Portalgun-00, server: 32e3a78.v1.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-01, server: 32e3a78.v2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-02, server: 32e3a78.v3.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-03, server: 32e3a78.v4.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-04, server: 32e3a78.v5.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-05, server: 32e3a78.v6.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-06, server: 32e3a78.v7.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-07, server: 32e3a78.v8.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-Portalgun-08, server: 32e3a78.v9.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-T01-Netflix, server: 32e3a78.f1.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-T02-Netflix, server: 32e3a78.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: GLaDOS-T03-Netflix, server: 32e3a78.f3.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /t, headers: {Host: tls.apple.com}}}
+  - {name: 🇺🇸 US-GLaDOS-GEO-00, server: 32e3a78.ga.gladns.com, port: 3381, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-01, server: 32e3a78.gb.gladns.com, port: 3381, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-02, server: 32e3a78.gc.gladns.com, port: 3381, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-00 2, server: 32e3a78.ga.gladns.com, port: 3382, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-01 2, server: 32e3a78.gb.gladns.com, port: 3382, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-02, server: 32e3a78.gc.gladns.com, port: 3382, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-00, server: 32e3a78.ga.gladns.com, port: 3383, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-01, server: 32e3a78.gb.gladns.com, port: 3383, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-02, server: 32e3a78.gc.gladns.com, port: 3383, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-00 2, server: 32e3a78.ga.gladns.com, port: 3384, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-01, server: 32e3a78.gb.gladns.com, port: 3384, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-02 2, server: 32e3a78.gc.gladns.com, port: 3384, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-00, server: 32e3a78.ga.gladns.com, port: 3385, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-01, server: 32e3a78.gb.gladns.com, port: 3385, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-02 2, server: 32e3a78.gc.gladns.com, port: 3385, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-00, server: 32e3a78.ga.gladns.com, port: 3386, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-01, server: 32e3a78.gb.gladns.com, port: 3386, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-02, server: 32e3a78.gc.gladns.com, port: 3386, type: trojan, password: ca4596fb9bc63cf2, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-10 2, server: 5fc3d08.pa.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-11 2, server: 5fc3d08.pb.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-12 2, server: 5fc3d08.pc.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-13, server: 5fc3d08.pd.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-14 2, server: 5fc3d08.pe.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-15, server: 5fc3d08.pf.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-16 2, server: 5fc3d08.pg.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-17 2, server: 5fc3d08.ph.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-18, server: 5fc3d08.pi.gladns.com, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-12, server: 5fc3d08.gc.gladns.com, port: 3381, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-10 2, server: 5fc3d08.ga.gladns.com, port: 3382, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-11 2, server: 5fc3d08.gb.gladns.com, port: 3382, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-12 2, server: 5fc3d08.gc.gladns.com, port: 3382, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-10, server: 5fc3d08.ga.gladns.com, port: 3383, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-11, server: 5fc3d08.gb.gladns.com, port: 3383, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-12, server: 5fc3d08.gc.gladns.com, port: 3383, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-10, server: 5fc3d08.ga.gladns.com, port: 3384, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-11, server: 5fc3d08.gb.gladns.com, port: 3384, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-12 2, server: 5fc3d08.gc.gladns.com, port: 3384, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-10 2, server: 5fc3d08.ga.gladns.com, port: 3385, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-11 2, server: 5fc3d08.gb.gladns.com, port: 3385, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-12 2, server: 5fc3d08.gc.gladns.com, port: 3385, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-10, server: 5fc3d08.ga.gladns.com, port: 3386, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-11, server: 5fc3d08.gb.gladns.com, port: 3386, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-12, server: 5fc3d08.gc.gladns.com, port: 3386, type: trojan, password: ffec9f6ea19e1dd1, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-20 2, server: 0a39e00.pa.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-21 2, server: 0a39e00.pb.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-22 2, server: 0a39e00.pc.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-23 2, server: 0a39e00.pd.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-24 2, server: 0a39e00.pe.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-25 2, server: 0a39e00.pf.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-26, server: 0a39e00.pg.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-27, server: 0a39e00.ph.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-28 2, server: 0a39e00.pi.gladns.com, port: 3389, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-20, server: 0a39e00.ga.gladns.com, port: 3381, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-21, server: 0a39e00.gb.gladns.com, port: 3381, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-22, server: 0a39e00.gc.gladns.com, port: 3381, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-20 2, server: 0a39e00.ga.gladns.com, port: 3382, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-21 2, server: 0a39e00.gb.gladns.com, port: 3382, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-22 2, server: 0a39e00.gc.gladns.com, port: 3382, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-20, server: 0a39e00.ga.gladns.com, port: 3383, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-21, server: 0a39e00.gb.gladns.com, port: 3383, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-22, server: 0a39e00.gc.gladns.com, port: 3383, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-20 2, server: 0a39e00.ga.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-21 2, server: 0a39e00.gb.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-22 2, server: 0a39e00.gc.gladns.com, port: 3384, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-20 2, server: 0a39e00.ga.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-21 2, server: 0a39e00.gb.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-22 2, server: 0a39e00.gc.gladns.com, port: 3385, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-20, server: 0a39e00.ga.gladns.com, port: 3386, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-21, server: 0a39e00.gb.gladns.com, port: 3386, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-22, server: 0a39e00.gc.gladns.com, port: 3386, type: trojan, password: d66013c645b93c5c, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-30 2, server: c0fd425.pa.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-31 2, server: c0fd425.pb.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-32 2, server: c0fd425.pc.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-33 2, server: c0fd425.pd.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-34 2, server: c0fd425.pe.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-35 2, server: c0fd425.pf.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-36, server: c0fd425.pg.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-37, server: c0fd425.ph.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: GLaDOS-N2-38, server: c0fd425.pi.gladns.com, port: 3389, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-31, server: c0fd425.gb.gladns.com, port: 3381, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇺🇸 US-GLaDOS-GEO-32, server: c0fd425.gc.gladns.com, port: 3381, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-30 2, server: c0fd425.ga.gladns.com, port: 3382, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-31 2, server: c0fd425.gb.gladns.com, port: 3382, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇯🇵 JP-GLaDOS-GEO-32 2, server: c0fd425.gc.gladns.com, port: 3382, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-30, server: c0fd425.ga.gladns.com, port: 3383, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-31, server: c0fd425.gb.gladns.com, port: 3383, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇨🇳 TW-GLaDOS-GEO-32 2, server: c0fd425.gc.gladns.com, port: 3383, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-30 2, server: c0fd425.ga.gladns.com, port: 3384, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-31 2, server: c0fd425.gb.gladns.com, port: 3384, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇭🇰 HK-GLaDOS-GEO-32 2, server: c0fd425.gc.gladns.com, port: 3384, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-30 2, server: c0fd425.ga.gladns.com, port: 3385, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-31 2, server: c0fd425.gb.gladns.com, port: 3385, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-GLaDOS-GEO-32 2, server: c0fd425.gc.gladns.com, port: 3385, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-30, server: c0fd425.ga.gladns.com, port: 3386, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-31, server: c0fd425.gb.gladns.com, port: 3386, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
+  - {name: 🇬🇧 UK-GLaDOS-GEO-32, server: c0fd425.gc.gladns.com, port: 3386, type: trojan, password: 711aabc21e45ae31, sni: n2.gladns.com, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -27,79 +185,711 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - DIRECT
-      - 🇰🇷 KR, Incheon
-      - 🇺🇸 US, Dallas 2
-      - 🇭🇰 HK, Kowloon
-      - 🇺🇸 US, Houston
-      - 🇯🇵 JP, Tokyo
-      - 🇺🇸 US, Los Angeles
-      - 🇨🇦 CA, Vancouver
-      - 🇺🇸 US, Dallas
-      - 🇺🇸 US, California
-      - 🇯🇵 JP, Tokyo 2
-      - 🇭🇰 HK, New Territories
-      - 🇨🇳 TW, Taipei
-      - 🇸🇬 SG, Singapore
-      - 🇯🇵 JP, Osaka
+      - GLaDOS-N2-31
+      - 🇯🇵 JP-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-32
+      - GLaDOS-N2-17
+      - 🇭🇰 HK-GLaDOS-GEO-30
+      - GLaDOS-N2-12
+      - 🇭🇰 HK-GLaDOS-GEO-31
+      - GLaDOS-N2-07
+      - 🇸🇬 SG-GLaDOS-GEO-30
+      - GLaDOS-N2-20
+      - 🇭🇰 HK-GLaDOS-GEO-02
+      - GLaDOS-N2-34
+      - 🇸🇬 SG-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-21
+      - GLaDOS-N2-11
+      - GLaDOS-N2-25
+      - 🇸🇬 SG-GLaDOS-GEO-10
+      - GLaDOS-N2-05
+      - 🇸🇬 SG-GLaDOS-GEO-11
+      - 🇸🇬 SG-GLaDOS-GEO-22
+      - GLaDOS-N2-23
+      - GLaDOS-N2-04
+      - 🇭🇰 HK-GLaDOS-GEO-22
+      - GLaDOS-N2-33
+      - GLaDOS-N2-10
+      - 🇭🇰 HK-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-20
+      - 🇭🇰 HK-GLaDOS-GEO-20
+      - GLaDOS-N2-32
+      - 🇨🇳 TW-GLaDOS-GEO-32
+      - GLaDOS-N2-24
+      - GLaDOS-N2-22
+      - GLaDOS-N2-30
+      - GLaDOS-N2-28
+      - 🇸🇬 SG-GLaDOS-GEO-02
+      - 🇸🇬 SG-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-00
+      - 🇭🇰 HK-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-01
+      - 🇯🇵 JP-GLaDOS-GEO-11
+      - 🇯🇵 JP-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-30
+      - GLaDOS-N2-35
+      - 🇯🇵 JP-GLaDOS-GEO-20
+      - 🇯🇵 JP-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-32
+      - GLaDOS-N2-14
+      - GLaDOS-N2-21
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-16
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01 2
+      - GLaDOS-N2-02 2
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04 2
+      - GLaDOS-N2-05 2
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07 2
+      - GLaDOS-N2-08
+      - GLaDOS-Portalgun-00
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Portalgun-07
+      - GLaDOS-Portalgun-08
+      - GLaDOS-T01-Netflix
+      - GLaDOS-T02-Netflix
+      - GLaDOS-T03-Netflix
+      - 🇺🇸 US-GLaDOS-GEO-00
+      - 🇺🇸 US-GLaDOS-GEO-01
+      - 🇺🇸 US-GLaDOS-GEO-02
+      - 🇯🇵 JP-GLaDOS-GEO-00 2
+      - 🇯🇵 JP-GLaDOS-GEO-01 2
+      - 🇯🇵 JP-GLaDOS-GEO-02
+      - 🇨🇳 TW-GLaDOS-GEO-00
+      - 🇨🇳 TW-GLaDOS-GEO-01
+      - 🇨🇳 TW-GLaDOS-GEO-02
+      - 🇭🇰 HK-GLaDOS-GEO-00 2
+      - 🇭🇰 HK-GLaDOS-GEO-01
+      - 🇭🇰 HK-GLaDOS-GEO-02 2
+      - 🇸🇬 SG-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-01
+      - 🇸🇬 SG-GLaDOS-GEO-02 2
+      - 🇬🇧 UK-GLaDOS-GEO-00
+      - 🇬🇧 UK-GLaDOS-GEO-01
+      - 🇬🇧 UK-GLaDOS-GEO-02
+      - GLaDOS-N2-10 2
+      - GLaDOS-N2-11 2
+      - GLaDOS-N2-12 2
+      - GLaDOS-N2-13
+      - GLaDOS-N2-14 2
+      - GLaDOS-N2-15
+      - GLaDOS-N2-16 2
+      - GLaDOS-N2-17 2
+      - GLaDOS-N2-18
+      - 🇺🇸 US-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-10 2
+      - 🇯🇵 JP-GLaDOS-GEO-11 2
+      - 🇯🇵 JP-GLaDOS-GEO-12 2
+      - 🇨🇳 TW-GLaDOS-GEO-10
+      - 🇨🇳 TW-GLaDOS-GEO-11
+      - 🇨🇳 TW-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-11
+      - 🇭🇰 HK-GLaDOS-GEO-12 2
+      - 🇸🇬 SG-GLaDOS-GEO-10 2
+      - 🇸🇬 SG-GLaDOS-GEO-11 2
+      - 🇸🇬 SG-GLaDOS-GEO-12 2
+      - 🇬🇧 UK-GLaDOS-GEO-10
+      - 🇬🇧 UK-GLaDOS-GEO-11
+      - 🇬🇧 UK-GLaDOS-GEO-12
+      - GLaDOS-N2-20 2
+      - GLaDOS-N2-21 2
+      - GLaDOS-N2-22 2
+      - GLaDOS-N2-23 2
+      - GLaDOS-N2-24 2
+      - GLaDOS-N2-25 2
+      - GLaDOS-N2-26
+      - GLaDOS-N2-27
+      - GLaDOS-N2-28 2
+      - 🇺🇸 US-GLaDOS-GEO-20
+      - 🇺🇸 US-GLaDOS-GEO-21
+      - 🇺🇸 US-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-20 2
+      - 🇯🇵 JP-GLaDOS-GEO-21 2
+      - 🇯🇵 JP-GLaDOS-GEO-22 2
+      - 🇨🇳 TW-GLaDOS-GEO-20
+      - 🇨🇳 TW-GLaDOS-GEO-21
+      - 🇨🇳 TW-GLaDOS-GEO-22
+      - 🇭🇰 HK-GLaDOS-GEO-20 2
+      - 🇭🇰 HK-GLaDOS-GEO-21 2
+      - 🇭🇰 HK-GLaDOS-GEO-22 2
+      - 🇸🇬 SG-GLaDOS-GEO-20 2
+      - 🇸🇬 SG-GLaDOS-GEO-21 2
+      - 🇸🇬 SG-GLaDOS-GEO-22 2
+      - 🇬🇧 UK-GLaDOS-GEO-20
+      - 🇬🇧 UK-GLaDOS-GEO-21
+      - 🇬🇧 UK-GLaDOS-GEO-22
+      - GLaDOS-N2-30 2
+      - GLaDOS-N2-31 2
+      - GLaDOS-N2-32 2
+      - GLaDOS-N2-33 2
+      - GLaDOS-N2-34 2
+      - GLaDOS-N2-35 2
+      - GLaDOS-N2-36
+      - GLaDOS-N2-37
+      - GLaDOS-N2-38
+      - 🇺🇸 US-GLaDOS-GEO-31
+      - 🇺🇸 US-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-30 2
+      - 🇯🇵 JP-GLaDOS-GEO-31 2
+      - 🇯🇵 JP-GLaDOS-GEO-32 2
+      - 🇨🇳 TW-GLaDOS-GEO-30
+      - 🇨🇳 TW-GLaDOS-GEO-31
+      - 🇨🇳 TW-GLaDOS-GEO-32 2
+      - 🇭🇰 HK-GLaDOS-GEO-30 2
+      - 🇭🇰 HK-GLaDOS-GEO-31 2
+      - 🇭🇰 HK-GLaDOS-GEO-32 2
+      - 🇸🇬 SG-GLaDOS-GEO-30 2
+      - 🇸🇬 SG-GLaDOS-GEO-31 2
+      - 🇸🇬 SG-GLaDOS-GEO-32 2
+      - 🇬🇧 UK-GLaDOS-GEO-30
+      - 🇬🇧 UK-GLaDOS-GEO-31
+      - 🇬🇧 UK-GLaDOS-GEO-32
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 KR, Incheon
-      - 🇺🇸 US, Dallas 2
-      - 🇭🇰 HK, Kowloon
-      - 🇺🇸 US, Houston
-      - 🇯🇵 JP, Tokyo
-      - 🇺🇸 US, Los Angeles
-      - 🇨🇦 CA, Vancouver
-      - 🇺🇸 US, Dallas
-      - 🇺🇸 US, California
-      - 🇯🇵 JP, Tokyo 2
-      - 🇭🇰 HK, New Territories
-      - 🇨🇳 TW, Taipei
-      - 🇸🇬 SG, Singapore
-      - 🇯🇵 JP, Osaka
+      - GLaDOS-N2-31
+      - 🇯🇵 JP-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-32
+      - GLaDOS-N2-17
+      - 🇭🇰 HK-GLaDOS-GEO-30
+      - GLaDOS-N2-12
+      - 🇭🇰 HK-GLaDOS-GEO-31
+      - GLaDOS-N2-07
+      - 🇸🇬 SG-GLaDOS-GEO-30
+      - GLaDOS-N2-20
+      - 🇭🇰 HK-GLaDOS-GEO-02
+      - GLaDOS-N2-34
+      - 🇸🇬 SG-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-21
+      - GLaDOS-N2-11
+      - GLaDOS-N2-25
+      - 🇸🇬 SG-GLaDOS-GEO-10
+      - GLaDOS-N2-05
+      - 🇸🇬 SG-GLaDOS-GEO-11
+      - 🇸🇬 SG-GLaDOS-GEO-22
+      - GLaDOS-N2-23
+      - GLaDOS-N2-04
+      - 🇭🇰 HK-GLaDOS-GEO-22
+      - GLaDOS-N2-33
+      - GLaDOS-N2-10
+      - 🇭🇰 HK-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-20
+      - 🇭🇰 HK-GLaDOS-GEO-20
+      - GLaDOS-N2-32
+      - 🇨🇳 TW-GLaDOS-GEO-32
+      - GLaDOS-N2-24
+      - GLaDOS-N2-22
+      - GLaDOS-N2-30
+      - GLaDOS-N2-28
+      - 🇸🇬 SG-GLaDOS-GEO-02
+      - 🇸🇬 SG-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-00
+      - 🇭🇰 HK-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-01
+      - 🇯🇵 JP-GLaDOS-GEO-11
+      - 🇯🇵 JP-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-30
+      - GLaDOS-N2-35
+      - 🇯🇵 JP-GLaDOS-GEO-20
+      - 🇯🇵 JP-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-32
+      - GLaDOS-N2-14
+      - GLaDOS-N2-21
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-16
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01 2
+      - GLaDOS-N2-02 2
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04 2
+      - GLaDOS-N2-05 2
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07 2
+      - GLaDOS-N2-08
+      - GLaDOS-Portalgun-00
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Portalgun-07
+      - GLaDOS-Portalgun-08
+      - GLaDOS-T01-Netflix
+      - GLaDOS-T02-Netflix
+      - GLaDOS-T03-Netflix
+      - 🇺🇸 US-GLaDOS-GEO-00
+      - 🇺🇸 US-GLaDOS-GEO-01
+      - 🇺🇸 US-GLaDOS-GEO-02
+      - 🇯🇵 JP-GLaDOS-GEO-00 2
+      - 🇯🇵 JP-GLaDOS-GEO-01 2
+      - 🇯🇵 JP-GLaDOS-GEO-02
+      - 🇨🇳 TW-GLaDOS-GEO-00
+      - 🇨🇳 TW-GLaDOS-GEO-01
+      - 🇨🇳 TW-GLaDOS-GEO-02
+      - 🇭🇰 HK-GLaDOS-GEO-00 2
+      - 🇭🇰 HK-GLaDOS-GEO-01
+      - 🇭🇰 HK-GLaDOS-GEO-02 2
+      - 🇸🇬 SG-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-01
+      - 🇸🇬 SG-GLaDOS-GEO-02 2
+      - 🇬🇧 UK-GLaDOS-GEO-00
+      - 🇬🇧 UK-GLaDOS-GEO-01
+      - 🇬🇧 UK-GLaDOS-GEO-02
+      - GLaDOS-N2-10 2
+      - GLaDOS-N2-11 2
+      - GLaDOS-N2-12 2
+      - GLaDOS-N2-13
+      - GLaDOS-N2-14 2
+      - GLaDOS-N2-15
+      - GLaDOS-N2-16 2
+      - GLaDOS-N2-17 2
+      - GLaDOS-N2-18
+      - 🇺🇸 US-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-10 2
+      - 🇯🇵 JP-GLaDOS-GEO-11 2
+      - 🇯🇵 JP-GLaDOS-GEO-12 2
+      - 🇨🇳 TW-GLaDOS-GEO-10
+      - 🇨🇳 TW-GLaDOS-GEO-11
+      - 🇨🇳 TW-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-11
+      - 🇭🇰 HK-GLaDOS-GEO-12 2
+      - 🇸🇬 SG-GLaDOS-GEO-10 2
+      - 🇸🇬 SG-GLaDOS-GEO-11 2
+      - 🇸🇬 SG-GLaDOS-GEO-12 2
+      - 🇬🇧 UK-GLaDOS-GEO-10
+      - 🇬🇧 UK-GLaDOS-GEO-11
+      - 🇬🇧 UK-GLaDOS-GEO-12
+      - GLaDOS-N2-20 2
+      - GLaDOS-N2-21 2
+      - GLaDOS-N2-22 2
+      - GLaDOS-N2-23 2
+      - GLaDOS-N2-24 2
+      - GLaDOS-N2-25 2
+      - GLaDOS-N2-26
+      - GLaDOS-N2-27
+      - GLaDOS-N2-28 2
+      - 🇺🇸 US-GLaDOS-GEO-20
+      - 🇺🇸 US-GLaDOS-GEO-21
+      - 🇺🇸 US-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-20 2
+      - 🇯🇵 JP-GLaDOS-GEO-21 2
+      - 🇯🇵 JP-GLaDOS-GEO-22 2
+      - 🇨🇳 TW-GLaDOS-GEO-20
+      - 🇨🇳 TW-GLaDOS-GEO-21
+      - 🇨🇳 TW-GLaDOS-GEO-22
+      - 🇭🇰 HK-GLaDOS-GEO-20 2
+      - 🇭🇰 HK-GLaDOS-GEO-21 2
+      - 🇭🇰 HK-GLaDOS-GEO-22 2
+      - 🇸🇬 SG-GLaDOS-GEO-20 2
+      - 🇸🇬 SG-GLaDOS-GEO-21 2
+      - 🇸🇬 SG-GLaDOS-GEO-22 2
+      - 🇬🇧 UK-GLaDOS-GEO-20
+      - 🇬🇧 UK-GLaDOS-GEO-21
+      - 🇬🇧 UK-GLaDOS-GEO-22
+      - GLaDOS-N2-30 2
+      - GLaDOS-N2-31 2
+      - GLaDOS-N2-32 2
+      - GLaDOS-N2-33 2
+      - GLaDOS-N2-34 2
+      - GLaDOS-N2-35 2
+      - GLaDOS-N2-36
+      - GLaDOS-N2-37
+      - GLaDOS-N2-38
+      - 🇺🇸 US-GLaDOS-GEO-31
+      - 🇺🇸 US-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-30 2
+      - 🇯🇵 JP-GLaDOS-GEO-31 2
+      - 🇯🇵 JP-GLaDOS-GEO-32 2
+      - 🇨🇳 TW-GLaDOS-GEO-30
+      - 🇨🇳 TW-GLaDOS-GEO-31
+      - 🇨🇳 TW-GLaDOS-GEO-32 2
+      - 🇭🇰 HK-GLaDOS-GEO-30 2
+      - 🇭🇰 HK-GLaDOS-GEO-31 2
+      - 🇭🇰 HK-GLaDOS-GEO-32 2
+      - 🇸🇬 SG-GLaDOS-GEO-30 2
+      - 🇸🇬 SG-GLaDOS-GEO-31 2
+      - 🇸🇬 SG-GLaDOS-GEO-32 2
+      - 🇬🇧 UK-GLaDOS-GEO-30
+      - 🇬🇧 UK-GLaDOS-GEO-31
+      - 🇬🇧 UK-GLaDOS-GEO-32
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇰🇷 KR, Incheon
-      - 🇺🇸 US, Dallas 2
-      - 🇭🇰 HK, Kowloon
-      - 🇺🇸 US, Houston
-      - 🇯🇵 JP, Tokyo
-      - 🇺🇸 US, Los Angeles
-      - 🇨🇦 CA, Vancouver
-      - 🇺🇸 US, Dallas
-      - 🇺🇸 US, California
-      - 🇯🇵 JP, Tokyo 2
-      - 🇭🇰 HK, New Territories
-      - 🇨🇳 TW, Taipei
-      - 🇸🇬 SG, Singapore
-      - 🇯🇵 JP, Osaka
+      - GLaDOS-N2-31
+      - 🇯🇵 JP-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-32
+      - GLaDOS-N2-17
+      - 🇭🇰 HK-GLaDOS-GEO-30
+      - GLaDOS-N2-12
+      - 🇭🇰 HK-GLaDOS-GEO-31
+      - GLaDOS-N2-07
+      - 🇸🇬 SG-GLaDOS-GEO-30
+      - GLaDOS-N2-20
+      - 🇭🇰 HK-GLaDOS-GEO-02
+      - GLaDOS-N2-34
+      - 🇸🇬 SG-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-21
+      - GLaDOS-N2-11
+      - GLaDOS-N2-25
+      - 🇸🇬 SG-GLaDOS-GEO-10
+      - GLaDOS-N2-05
+      - 🇸🇬 SG-GLaDOS-GEO-11
+      - 🇸🇬 SG-GLaDOS-GEO-22
+      - GLaDOS-N2-23
+      - GLaDOS-N2-04
+      - 🇭🇰 HK-GLaDOS-GEO-22
+      - GLaDOS-N2-33
+      - GLaDOS-N2-10
+      - 🇭🇰 HK-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-20
+      - 🇭🇰 HK-GLaDOS-GEO-20
+      - GLaDOS-N2-32
+      - 🇨🇳 TW-GLaDOS-GEO-32
+      - GLaDOS-N2-24
+      - GLaDOS-N2-22
+      - GLaDOS-N2-30
+      - GLaDOS-N2-28
+      - 🇸🇬 SG-GLaDOS-GEO-02
+      - 🇸🇬 SG-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-00
+      - 🇭🇰 HK-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-01
+      - 🇯🇵 JP-GLaDOS-GEO-11
+      - 🇯🇵 JP-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-30
+      - GLaDOS-N2-35
+      - 🇯🇵 JP-GLaDOS-GEO-20
+      - 🇯🇵 JP-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-32
+      - GLaDOS-N2-14
+      - GLaDOS-N2-21
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-16
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01 2
+      - GLaDOS-N2-02 2
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04 2
+      - GLaDOS-N2-05 2
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07 2
+      - GLaDOS-N2-08
+      - GLaDOS-Portalgun-00
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Portalgun-07
+      - GLaDOS-Portalgun-08
+      - GLaDOS-T01-Netflix
+      - GLaDOS-T02-Netflix
+      - GLaDOS-T03-Netflix
+      - 🇺🇸 US-GLaDOS-GEO-00
+      - 🇺🇸 US-GLaDOS-GEO-01
+      - 🇺🇸 US-GLaDOS-GEO-02
+      - 🇯🇵 JP-GLaDOS-GEO-00 2
+      - 🇯🇵 JP-GLaDOS-GEO-01 2
+      - 🇯🇵 JP-GLaDOS-GEO-02
+      - 🇨🇳 TW-GLaDOS-GEO-00
+      - 🇨🇳 TW-GLaDOS-GEO-01
+      - 🇨🇳 TW-GLaDOS-GEO-02
+      - 🇭🇰 HK-GLaDOS-GEO-00 2
+      - 🇭🇰 HK-GLaDOS-GEO-01
+      - 🇭🇰 HK-GLaDOS-GEO-02 2
+      - 🇸🇬 SG-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-01
+      - 🇸🇬 SG-GLaDOS-GEO-02 2
+      - 🇬🇧 UK-GLaDOS-GEO-00
+      - 🇬🇧 UK-GLaDOS-GEO-01
+      - 🇬🇧 UK-GLaDOS-GEO-02
+      - GLaDOS-N2-10 2
+      - GLaDOS-N2-11 2
+      - GLaDOS-N2-12 2
+      - GLaDOS-N2-13
+      - GLaDOS-N2-14 2
+      - GLaDOS-N2-15
+      - GLaDOS-N2-16 2
+      - GLaDOS-N2-17 2
+      - GLaDOS-N2-18
+      - 🇺🇸 US-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-10 2
+      - 🇯🇵 JP-GLaDOS-GEO-11 2
+      - 🇯🇵 JP-GLaDOS-GEO-12 2
+      - 🇨🇳 TW-GLaDOS-GEO-10
+      - 🇨🇳 TW-GLaDOS-GEO-11
+      - 🇨🇳 TW-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-11
+      - 🇭🇰 HK-GLaDOS-GEO-12 2
+      - 🇸🇬 SG-GLaDOS-GEO-10 2
+      - 🇸🇬 SG-GLaDOS-GEO-11 2
+      - 🇸🇬 SG-GLaDOS-GEO-12 2
+      - 🇬🇧 UK-GLaDOS-GEO-10
+      - 🇬🇧 UK-GLaDOS-GEO-11
+      - 🇬🇧 UK-GLaDOS-GEO-12
+      - GLaDOS-N2-20 2
+      - GLaDOS-N2-21 2
+      - GLaDOS-N2-22 2
+      - GLaDOS-N2-23 2
+      - GLaDOS-N2-24 2
+      - GLaDOS-N2-25 2
+      - GLaDOS-N2-26
+      - GLaDOS-N2-27
+      - GLaDOS-N2-28 2
+      - 🇺🇸 US-GLaDOS-GEO-20
+      - 🇺🇸 US-GLaDOS-GEO-21
+      - 🇺🇸 US-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-20 2
+      - 🇯🇵 JP-GLaDOS-GEO-21 2
+      - 🇯🇵 JP-GLaDOS-GEO-22 2
+      - 🇨🇳 TW-GLaDOS-GEO-20
+      - 🇨🇳 TW-GLaDOS-GEO-21
+      - 🇨🇳 TW-GLaDOS-GEO-22
+      - 🇭🇰 HK-GLaDOS-GEO-20 2
+      - 🇭🇰 HK-GLaDOS-GEO-21 2
+      - 🇭🇰 HK-GLaDOS-GEO-22 2
+      - 🇸🇬 SG-GLaDOS-GEO-20 2
+      - 🇸🇬 SG-GLaDOS-GEO-21 2
+      - 🇸🇬 SG-GLaDOS-GEO-22 2
+      - 🇬🇧 UK-GLaDOS-GEO-20
+      - 🇬🇧 UK-GLaDOS-GEO-21
+      - 🇬🇧 UK-GLaDOS-GEO-22
+      - GLaDOS-N2-30 2
+      - GLaDOS-N2-31 2
+      - GLaDOS-N2-32 2
+      - GLaDOS-N2-33 2
+      - GLaDOS-N2-34 2
+      - GLaDOS-N2-35 2
+      - GLaDOS-N2-36
+      - GLaDOS-N2-37
+      - GLaDOS-N2-38
+      - 🇺🇸 US-GLaDOS-GEO-31
+      - 🇺🇸 US-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-30 2
+      - 🇯🇵 JP-GLaDOS-GEO-31 2
+      - 🇯🇵 JP-GLaDOS-GEO-32 2
+      - 🇨🇳 TW-GLaDOS-GEO-30
+      - 🇨🇳 TW-GLaDOS-GEO-31
+      - 🇨🇳 TW-GLaDOS-GEO-32 2
+      - 🇭🇰 HK-GLaDOS-GEO-30 2
+      - 🇭🇰 HK-GLaDOS-GEO-31 2
+      - 🇭🇰 HK-GLaDOS-GEO-32 2
+      - 🇸🇬 SG-GLaDOS-GEO-30 2
+      - 🇸🇬 SG-GLaDOS-GEO-31 2
+      - 🇸🇬 SG-GLaDOS-GEO-32 2
+      - 🇬🇧 UK-GLaDOS-GEO-30
+      - 🇬🇧 UK-GLaDOS-GEO-31
+      - 🇬🇧 UK-GLaDOS-GEO-32
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
-      - 🇰🇷 KR, Incheon
-      - 🇺🇸 US, Dallas 2
-      - 🇭🇰 HK, Kowloon
-      - 🇺🇸 US, Houston
-      - 🇯🇵 JP, Tokyo
-      - 🇺🇸 US, Los Angeles
-      - 🇨🇦 CA, Vancouver
-      - 🇺🇸 US, Dallas
-      - 🇺🇸 US, California
-      - 🇯🇵 JP, Tokyo 2
-      - 🇭🇰 HK, New Territories
-      - 🇨🇳 TW, Taipei
-      - 🇸🇬 SG, Singapore
-      - 🇯🇵 JP, Osaka
+      - GLaDOS-N2-31
+      - 🇯🇵 JP-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-32
+      - GLaDOS-N2-17
+      - 🇭🇰 HK-GLaDOS-GEO-30
+      - GLaDOS-N2-12
+      - 🇭🇰 HK-GLaDOS-GEO-31
+      - GLaDOS-N2-07
+      - 🇸🇬 SG-GLaDOS-GEO-30
+      - GLaDOS-N2-20
+      - 🇭🇰 HK-GLaDOS-GEO-02
+      - GLaDOS-N2-34
+      - 🇸🇬 SG-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-21
+      - GLaDOS-N2-11
+      - GLaDOS-N2-25
+      - 🇸🇬 SG-GLaDOS-GEO-10
+      - GLaDOS-N2-05
+      - 🇸🇬 SG-GLaDOS-GEO-11
+      - 🇸🇬 SG-GLaDOS-GEO-22
+      - GLaDOS-N2-23
+      - GLaDOS-N2-04
+      - 🇭🇰 HK-GLaDOS-GEO-22
+      - GLaDOS-N2-33
+      - GLaDOS-N2-10
+      - 🇭🇰 HK-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-20
+      - 🇭🇰 HK-GLaDOS-GEO-20
+      - GLaDOS-N2-32
+      - 🇨🇳 TW-GLaDOS-GEO-32
+      - GLaDOS-N2-24
+      - GLaDOS-N2-22
+      - GLaDOS-N2-30
+      - GLaDOS-N2-28
+      - 🇸🇬 SG-GLaDOS-GEO-02
+      - 🇸🇬 SG-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-00
+      - 🇭🇰 HK-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-01
+      - 🇯🇵 JP-GLaDOS-GEO-11
+      - 🇯🇵 JP-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-30
+      - GLaDOS-N2-35
+      - 🇯🇵 JP-GLaDOS-GEO-20
+      - 🇯🇵 JP-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-32
+      - GLaDOS-N2-14
+      - GLaDOS-N2-21
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-16
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01 2
+      - GLaDOS-N2-02 2
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04 2
+      - GLaDOS-N2-05 2
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07 2
+      - GLaDOS-N2-08
+      - GLaDOS-Portalgun-00
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Portalgun-07
+      - GLaDOS-Portalgun-08
+      - GLaDOS-T01-Netflix
+      - GLaDOS-T02-Netflix
+      - GLaDOS-T03-Netflix
+      - 🇺🇸 US-GLaDOS-GEO-00
+      - 🇺🇸 US-GLaDOS-GEO-01
+      - 🇺🇸 US-GLaDOS-GEO-02
+      - 🇯🇵 JP-GLaDOS-GEO-00 2
+      - 🇯🇵 JP-GLaDOS-GEO-01 2
+      - 🇯🇵 JP-GLaDOS-GEO-02
+      - 🇨🇳 TW-GLaDOS-GEO-00
+      - 🇨🇳 TW-GLaDOS-GEO-01
+      - 🇨🇳 TW-GLaDOS-GEO-02
+      - 🇭🇰 HK-GLaDOS-GEO-00 2
+      - 🇭🇰 HK-GLaDOS-GEO-01
+      - 🇭🇰 HK-GLaDOS-GEO-02 2
+      - 🇸🇬 SG-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-01
+      - 🇸🇬 SG-GLaDOS-GEO-02 2
+      - 🇬🇧 UK-GLaDOS-GEO-00
+      - 🇬🇧 UK-GLaDOS-GEO-01
+      - 🇬🇧 UK-GLaDOS-GEO-02
+      - GLaDOS-N2-10 2
+      - GLaDOS-N2-11 2
+      - GLaDOS-N2-12 2
+      - GLaDOS-N2-13
+      - GLaDOS-N2-14 2
+      - GLaDOS-N2-15
+      - GLaDOS-N2-16 2
+      - GLaDOS-N2-17 2
+      - GLaDOS-N2-18
+      - 🇺🇸 US-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-10 2
+      - 🇯🇵 JP-GLaDOS-GEO-11 2
+      - 🇯🇵 JP-GLaDOS-GEO-12 2
+      - 🇨🇳 TW-GLaDOS-GEO-10
+      - 🇨🇳 TW-GLaDOS-GEO-11
+      - 🇨🇳 TW-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-11
+      - 🇭🇰 HK-GLaDOS-GEO-12 2
+      - 🇸🇬 SG-GLaDOS-GEO-10 2
+      - 🇸🇬 SG-GLaDOS-GEO-11 2
+      - 🇸🇬 SG-GLaDOS-GEO-12 2
+      - 🇬🇧 UK-GLaDOS-GEO-10
+      - 🇬🇧 UK-GLaDOS-GEO-11
+      - 🇬🇧 UK-GLaDOS-GEO-12
+      - GLaDOS-N2-20 2
+      - GLaDOS-N2-21 2
+      - GLaDOS-N2-22 2
+      - GLaDOS-N2-23 2
+      - GLaDOS-N2-24 2
+      - GLaDOS-N2-25 2
+      - GLaDOS-N2-26
+      - GLaDOS-N2-27
+      - GLaDOS-N2-28 2
+      - 🇺🇸 US-GLaDOS-GEO-20
+      - 🇺🇸 US-GLaDOS-GEO-21
+      - 🇺🇸 US-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-20 2
+      - 🇯🇵 JP-GLaDOS-GEO-21 2
+      - 🇯🇵 JP-GLaDOS-GEO-22 2
+      - 🇨🇳 TW-GLaDOS-GEO-20
+      - 🇨🇳 TW-GLaDOS-GEO-21
+      - 🇨🇳 TW-GLaDOS-GEO-22
+      - 🇭🇰 HK-GLaDOS-GEO-20 2
+      - 🇭🇰 HK-GLaDOS-GEO-21 2
+      - 🇭🇰 HK-GLaDOS-GEO-22 2
+      - 🇸🇬 SG-GLaDOS-GEO-20 2
+      - 🇸🇬 SG-GLaDOS-GEO-21 2
+      - 🇸🇬 SG-GLaDOS-GEO-22 2
+      - 🇬🇧 UK-GLaDOS-GEO-20
+      - 🇬🇧 UK-GLaDOS-GEO-21
+      - 🇬🇧 UK-GLaDOS-GEO-22
+      - GLaDOS-N2-30 2
+      - GLaDOS-N2-31 2
+      - GLaDOS-N2-32 2
+      - GLaDOS-N2-33 2
+      - GLaDOS-N2-34 2
+      - GLaDOS-N2-35 2
+      - GLaDOS-N2-36
+      - GLaDOS-N2-37
+      - GLaDOS-N2-38
+      - 🇺🇸 US-GLaDOS-GEO-31
+      - 🇺🇸 US-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-30 2
+      - 🇯🇵 JP-GLaDOS-GEO-31 2
+      - 🇯🇵 JP-GLaDOS-GEO-32 2
+      - 🇨🇳 TW-GLaDOS-GEO-30
+      - 🇨🇳 TW-GLaDOS-GEO-31
+      - 🇨🇳 TW-GLaDOS-GEO-32 2
+      - 🇭🇰 HK-GLaDOS-GEO-30 2
+      - 🇭🇰 HK-GLaDOS-GEO-31 2
+      - 🇭🇰 HK-GLaDOS-GEO-32 2
+      - 🇸🇬 SG-GLaDOS-GEO-30 2
+      - 🇸🇬 SG-GLaDOS-GEO-31 2
+      - 🇸🇬 SG-GLaDOS-GEO-32 2
+      - 🇬🇧 UK-GLaDOS-GEO-30
+      - 🇬🇧 UK-GLaDOS-GEO-31
+      - 🇬🇧 UK-GLaDOS-GEO-32
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -119,20 +909,178 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇰🇷 KR, Incheon
-      - 🇺🇸 US, Dallas 2
-      - 🇭🇰 HK, Kowloon
-      - 🇺🇸 US, Houston
-      - 🇯🇵 JP, Tokyo
-      - 🇺🇸 US, Los Angeles
-      - 🇨🇦 CA, Vancouver
-      - 🇺🇸 US, Dallas
-      - 🇺🇸 US, California
-      - 🇯🇵 JP, Tokyo 2
-      - 🇭🇰 HK, New Territories
-      - 🇨🇳 TW, Taipei
-      - 🇸🇬 SG, Singapore
-      - 🇯🇵 JP, Osaka
+      - GLaDOS-N2-31
+      - 🇯🇵 JP-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-32
+      - GLaDOS-N2-17
+      - 🇭🇰 HK-GLaDOS-GEO-30
+      - GLaDOS-N2-12
+      - 🇭🇰 HK-GLaDOS-GEO-31
+      - GLaDOS-N2-07
+      - 🇸🇬 SG-GLaDOS-GEO-30
+      - GLaDOS-N2-20
+      - 🇭🇰 HK-GLaDOS-GEO-02
+      - GLaDOS-N2-34
+      - 🇸🇬 SG-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-21
+      - GLaDOS-N2-11
+      - GLaDOS-N2-25
+      - 🇸🇬 SG-GLaDOS-GEO-10
+      - GLaDOS-N2-05
+      - 🇸🇬 SG-GLaDOS-GEO-11
+      - 🇸🇬 SG-GLaDOS-GEO-22
+      - GLaDOS-N2-23
+      - GLaDOS-N2-04
+      - 🇭🇰 HK-GLaDOS-GEO-22
+      - GLaDOS-N2-33
+      - GLaDOS-N2-10
+      - 🇭🇰 HK-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-31
+      - 🇸🇬 SG-GLaDOS-GEO-20
+      - 🇭🇰 HK-GLaDOS-GEO-20
+      - GLaDOS-N2-32
+      - 🇨🇳 TW-GLaDOS-GEO-32
+      - GLaDOS-N2-24
+      - GLaDOS-N2-22
+      - GLaDOS-N2-30
+      - GLaDOS-N2-28
+      - 🇸🇬 SG-GLaDOS-GEO-02
+      - 🇸🇬 SG-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-00
+      - 🇭🇰 HK-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-01
+      - 🇯🇵 JP-GLaDOS-GEO-11
+      - 🇯🇵 JP-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-30
+      - GLaDOS-N2-35
+      - 🇯🇵 JP-GLaDOS-GEO-20
+      - 🇯🇵 JP-GLaDOS-GEO-21
+      - 🇯🇵 JP-GLaDOS-GEO-32
+      - GLaDOS-N2-14
+      - GLaDOS-N2-21
+      - GLaDOS-N2-01
+      - GLaDOS-N2-02
+      - GLaDOS-N2-16
+      - GLaDOS-N2-00
+      - GLaDOS-N2-01 2
+      - GLaDOS-N2-02 2
+      - GLaDOS-N2-03
+      - GLaDOS-N2-04 2
+      - GLaDOS-N2-05 2
+      - GLaDOS-N2-06
+      - GLaDOS-N2-07 2
+      - GLaDOS-N2-08
+      - GLaDOS-Portalgun-00
+      - GLaDOS-Portalgun-01
+      - GLaDOS-Portalgun-02
+      - GLaDOS-Portalgun-03
+      - GLaDOS-Portalgun-04
+      - GLaDOS-Portalgun-05
+      - GLaDOS-Portalgun-06
+      - GLaDOS-Portalgun-07
+      - GLaDOS-Portalgun-08
+      - GLaDOS-T01-Netflix
+      - GLaDOS-T02-Netflix
+      - GLaDOS-T03-Netflix
+      - 🇺🇸 US-GLaDOS-GEO-00
+      - 🇺🇸 US-GLaDOS-GEO-01
+      - 🇺🇸 US-GLaDOS-GEO-02
+      - 🇯🇵 JP-GLaDOS-GEO-00 2
+      - 🇯🇵 JP-GLaDOS-GEO-01 2
+      - 🇯🇵 JP-GLaDOS-GEO-02
+      - 🇨🇳 TW-GLaDOS-GEO-00
+      - 🇨🇳 TW-GLaDOS-GEO-01
+      - 🇨🇳 TW-GLaDOS-GEO-02
+      - 🇭🇰 HK-GLaDOS-GEO-00 2
+      - 🇭🇰 HK-GLaDOS-GEO-01
+      - 🇭🇰 HK-GLaDOS-GEO-02 2
+      - 🇸🇬 SG-GLaDOS-GEO-00
+      - 🇸🇬 SG-GLaDOS-GEO-01
+      - 🇸🇬 SG-GLaDOS-GEO-02 2
+      - 🇬🇧 UK-GLaDOS-GEO-00
+      - 🇬🇧 UK-GLaDOS-GEO-01
+      - 🇬🇧 UK-GLaDOS-GEO-02
+      - GLaDOS-N2-10 2
+      - GLaDOS-N2-11 2
+      - GLaDOS-N2-12 2
+      - GLaDOS-N2-13
+      - GLaDOS-N2-14 2
+      - GLaDOS-N2-15
+      - GLaDOS-N2-16 2
+      - GLaDOS-N2-17 2
+      - GLaDOS-N2-18
+      - 🇺🇸 US-GLaDOS-GEO-12
+      - 🇯🇵 JP-GLaDOS-GEO-10 2
+      - 🇯🇵 JP-GLaDOS-GEO-11 2
+      - 🇯🇵 JP-GLaDOS-GEO-12 2
+      - 🇨🇳 TW-GLaDOS-GEO-10
+      - 🇨🇳 TW-GLaDOS-GEO-11
+      - 🇨🇳 TW-GLaDOS-GEO-12
+      - 🇭🇰 HK-GLaDOS-GEO-10
+      - 🇭🇰 HK-GLaDOS-GEO-11
+      - 🇭🇰 HK-GLaDOS-GEO-12 2
+      - 🇸🇬 SG-GLaDOS-GEO-10 2
+      - 🇸🇬 SG-GLaDOS-GEO-11 2
+      - 🇸🇬 SG-GLaDOS-GEO-12 2
+      - 🇬🇧 UK-GLaDOS-GEO-10
+      - 🇬🇧 UK-GLaDOS-GEO-11
+      - 🇬🇧 UK-GLaDOS-GEO-12
+      - GLaDOS-N2-20 2
+      - GLaDOS-N2-21 2
+      - GLaDOS-N2-22 2
+      - GLaDOS-N2-23 2
+      - GLaDOS-N2-24 2
+      - GLaDOS-N2-25 2
+      - GLaDOS-N2-26
+      - GLaDOS-N2-27
+      - GLaDOS-N2-28 2
+      - 🇺🇸 US-GLaDOS-GEO-20
+      - 🇺🇸 US-GLaDOS-GEO-21
+      - 🇺🇸 US-GLaDOS-GEO-22
+      - 🇯🇵 JP-GLaDOS-GEO-20 2
+      - 🇯🇵 JP-GLaDOS-GEO-21 2
+      - 🇯🇵 JP-GLaDOS-GEO-22 2
+      - 🇨🇳 TW-GLaDOS-GEO-20
+      - 🇨🇳 TW-GLaDOS-GEO-21
+      - 🇨🇳 TW-GLaDOS-GEO-22
+      - 🇭🇰 HK-GLaDOS-GEO-20 2
+      - 🇭🇰 HK-GLaDOS-GEO-21 2
+      - 🇭🇰 HK-GLaDOS-GEO-22 2
+      - 🇸🇬 SG-GLaDOS-GEO-20 2
+      - 🇸🇬 SG-GLaDOS-GEO-21 2
+      - 🇸🇬 SG-GLaDOS-GEO-22 2
+      - 🇬🇧 UK-GLaDOS-GEO-20
+      - 🇬🇧 UK-GLaDOS-GEO-21
+      - 🇬🇧 UK-GLaDOS-GEO-22
+      - GLaDOS-N2-30 2
+      - GLaDOS-N2-31 2
+      - GLaDOS-N2-32 2
+      - GLaDOS-N2-33 2
+      - GLaDOS-N2-34 2
+      - GLaDOS-N2-35 2
+      - GLaDOS-N2-36
+      - GLaDOS-N2-37
+      - GLaDOS-N2-38
+      - 🇺🇸 US-GLaDOS-GEO-31
+      - 🇺🇸 US-GLaDOS-GEO-32
+      - 🇯🇵 JP-GLaDOS-GEO-30 2
+      - 🇯🇵 JP-GLaDOS-GEO-31 2
+      - 🇯🇵 JP-GLaDOS-GEO-32 2
+      - 🇨🇳 TW-GLaDOS-GEO-30
+      - 🇨🇳 TW-GLaDOS-GEO-31
+      - 🇨🇳 TW-GLaDOS-GEO-32 2
+      - 🇭🇰 HK-GLaDOS-GEO-30 2
+      - 🇭🇰 HK-GLaDOS-GEO-31 2
+      - 🇭🇰 HK-GLaDOS-GEO-32 2
+      - 🇸🇬 SG-GLaDOS-GEO-30 2
+      - 🇸🇬 SG-GLaDOS-GEO-31 2
+      - 🇸🇬 SG-GLaDOS-GEO-32 2
+      - 🇬🇧 UK-GLaDOS-GEO-30
+      - 🇬🇧 UK-GLaDOS-GEO-31
+      - 🇬🇧 UK-GLaDOS-GEO-32
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
