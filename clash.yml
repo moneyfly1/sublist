@@ -5,291 +5,483 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 关注tg频道@moneyflychat 日本03, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 美国01, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 美国02, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 美国03, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 美国04, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 新加坡01, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 新加坡02, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 新加坡03, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 英国01, server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-23.18Mb", server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-78.70Mb", server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-57.52Mb", server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-17.84Mb", server: 14.29.124.174, port: 11005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-72.88Mb", server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-65.02Mb", server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-74.89Mb", server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-59.82Mb", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-61.03Mb", server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-62.26Mb", server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-62.96Mb", server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 1.96Mb", server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-76.90Mb", server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 3.20Mb", server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-64.81Mb", server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-59.91Mb", server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-54.63Mb", server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-60.88Mb", server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-11.82Mb", server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-97.08Mb", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-45.36Mb", server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-59.37Mb", server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-69.56Mb", server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-68.93Mb", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-102.01Mb", server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-62.43Mb", server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-60.76Mb", server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-13.82Mb", server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-82.84Mb", server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-75.01Mb", server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-72.17Mb", server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-80.76Mb", server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-76.24Mb", server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-75.42Mb", server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 2.12Mb", server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-32.59Mb", server: 14.29.124.174, port: 11016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-69.83Mb", server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-67.39Mb", server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 2.05Mb", server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 3.51Mb", server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 2.77Mb", server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-11.82Mb 2", server: cu-cs.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 9.95Mb", server: cm-gz.okvpn.xyz, port: 20006, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 5.29Mb", server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-23.32Mb", server: 212.81.47.11, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 7.32Mb", server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 19222, type: trojan, password: 2b815eb6-3982-4f09-9181-3c02c479d4d1, sni: bai-piao-wang-zhe-iplc12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-10.06Mb", server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-35.49Mb", server: hk64.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-23.29Mb", server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-49.53Mb", server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度- 3.32Mb", server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-29.11Mb", server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-58.81Mb", server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 14.29.124.168:24009, server: 14.29.124.168, port: 24009, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat 14.29.124.168:25252, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 关注tg频道@moneyflychat "", server: 116.129.254.65, port: 63086, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 116.129.254.65}, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-26.50Mb", server: cm-gz.okvpn.xyz, port: 20009, type: trojan, password: 2c100ffe-4f52-4133-8c5c-d053fed7b270, sni: cm-gz.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 关注tg频道@moneyflychat 速度-16.80Mb", server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点01, server: cm.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: TG@moneyflychat 高速节点02, server: cm.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: TG@moneyflychat 高速节点04, server: cm.3sx.xyz, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: TG@moneyflychat 高速节点05, server: cm.3sx.xyz, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: TG@moneyflychat 高速节点07, server: cmb.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: TG@moneyflychat 高速节点08, server: cmb.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: TG@moneyflychat 高速节点09, server: relay_cm1.flyxxl.xyz, port: 25003, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: TG@moneyflychat 高速节点10, server: relay_cm1.flyxxl.xyz, port: 25004, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: TG@moneyflychat 高速节点11, server: relaybgp_pro.flyxxl.xyz, port: 45431, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: TG@moneyflychat 高速节点12, server: relaybgp_pro.flyxxl.xyz, port: 45550, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: TG@moneyflychat 高速节点13, server: relaybgp_pro.flyxxl.xyz, port: 45601, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: TG@moneyflychat 高速节点14, server: 14.29.124.168, port: 24016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点15, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点16, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点17, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点18, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点19, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点20, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点21, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点22, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点23, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点24, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点25, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点26, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点27, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点28, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点29, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点30, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点31, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点32, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点33, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点34, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点35, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点36, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点37, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点38, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点39, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点40, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点41, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点42, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点43, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点44, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点45, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TG@moneyflychat 高速节点46, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 高速_241 | 6.42Mb, server: 120.233.185.189, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_228 |15.69Mb, server: 120.233.185.189, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_222 |23.47Mb, server: 120.233.185.189, port: 11805, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_244 |27.45Mb, server: 120.233.185.189, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_220 |20.75Mb, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_253 |13.66Mb, server: 120.233.185.189, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_218 |14.13Mb, server: 120.233.185.189, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_221 |32.11Mb, server: 120.233.185.189, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_237 |21.39Mb, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_246 |39.02Mb, server: 120.233.185.189, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_248 |33.33Mb, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_224 |20.07Mb, server: 120.233.185.189, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_219 |26.99Mb, server: 120.233.185.189, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_256 |40.37Mb, server: 58.247.140.151, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_223 |34.47Mb, server: 58.247.140.151, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_255 |44.96Mb, server: 58.247.140.151, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_254 |38.90Mb, server: 58.247.140.151, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_227 |30.22Mb, server: 58.247.140.151, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
+  - {name: 高速_257 |37.21Mb, server: 58.247.140.151, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: 高速_240 | 9.00Mb, server: 58.247.140.151, port: 11501, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
+  - {name: TG@moneyflychat 高速节点71, server: 52.231.75.156, port: 12580, type: trojan, password: 1c994b60-3574-4135-81c7-84187668b30f, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点72, server: azhk.n.optage.moe, port: 62500, type: trojan, password: 56bc02da-d09c-42aa-ae72-8e58fd226f38, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点73, server: hn.zfnode.org, port: 30217, type: trojan, password: 63ec756d-1f6a-36c8-a9fd-025f4acfc74f, sni: hn.zfnode.org, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点74, server: transit1.fanqiang.eu, port: 15004, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点75, server: transit1.fanqiang.eu, port: 15006, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点76, server: transit1.fanqiang.eu, port: 15007, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点77, server: transit1.fanqiang.eu, port: 15008, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点78, server: transit1.fanqiang.eu, port: 15009, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点79, server: transit1.fanqiang.eu, port: 15017, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点80, server: transit1.fanqiang.eu, port: 15019, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点81, server: transit1.fanqiang.eu, port: 15020, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点82, server: transit1.fanqiang.eu, port: 15021, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点83, server: transit1.fanqiang.eu, port: 15022, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点84, server: transit1.fanqiang.eu, port: 15045, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: transit1.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点85, server: us8.fanqiang.eu, port: 19999, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: us8.fanqiang.eu, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点86, server: zq-vip-05.com, port: 443, type: trojan, password: 7TFhMMPRFjkEe9Bl, sni: zq-vip-05.com, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点87, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点88, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点89, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点90, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点91, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点92, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点93, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点94, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点95, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点96, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点97, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点98, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点99, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点100, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点101, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点102, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点103, server: azqt001.xiba1.xyz, port: 20728, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点104, server: azqt001.xiba1.xyz, port: 20729, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点105, server: azqt001.xiba1.xyz, port: 20730, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点106, server: azqt001.xiba1.xyz, port: 20731, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点107, server: azqt001.xiba1.xyz, port: 20732, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点108, server: azqt001.xiba1.xyz, port: 20733, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点109, server: azqt001.xiba1.xyz, port: 20734, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点110, server: azqt001.xiba1.xyz, port: 20735, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点111, server: azqt001.xiba1.xyz, port: 20736, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点112, server: azqt001.xiba1.xyz, port: 20739, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点113, server: azqt001.xiba1.xyz, port: 20741, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点114, server: azqt001.xiba1.xyz, port: 20743, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点115, server: azqt001.xiba1.xyz, port: 20746, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点116, server: azqt001.xiba1.xyz, port: 20747, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点117, server: azqt001.xiba1.xyz, port: 20748, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点118, server: hj001.xiba1.xyz, port: 20762, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点119, server: azhk.n.optage.moe, port: 62500, type: trojan, password: d3c34184-e1b5-42d0-8f52-d89c8a095301, sni: azhk.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点120, server: ocijp.n.optage.moe, port: 62500, type: trojan, password: d3c34184-e1b5-42d0-8f52-d89c8a095301, sni: ocijp.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat 高速节点121, server: relay_cm1.flyxxl.xyz, port: 25002, type: trojan, password: fff34c21-0a19-41f5-ae83-27b115066a92, sni: relay_cm1.flyxxl.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -308,73 +500,121 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -385,218 +625,362 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -612,73 +996,121 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 关注tg频道@moneyflychat 日本03
-      - 关注tg频道@moneyflychat 美国01
-      - 关注tg频道@moneyflychat 美国02
-      - 关注tg频道@moneyflychat 美国03
-      - 关注tg频道@moneyflychat 美国04
-      - 关注tg频道@moneyflychat 新加坡01
-      - 关注tg频道@moneyflychat 新加坡02
-      - 关注tg频道@moneyflychat 新加坡03
-      - 关注tg频道@moneyflychat 英国01
-      - 关注tg频道@moneyflychat 速度-23.18Mb"
-      - 关注tg频道@moneyflychat 速度-78.70Mb"
-      - 关注tg频道@moneyflychat 速度-57.52Mb"
-      - 关注tg频道@moneyflychat 速度-17.84Mb"
-      - 关注tg频道@moneyflychat 速度-72.88Mb"
-      - 关注tg频道@moneyflychat 速度-65.02Mb"
-      - 关注tg频道@moneyflychat 速度-74.89Mb"
-      - 关注tg频道@moneyflychat 速度-59.82Mb"
-      - 关注tg频道@moneyflychat 速度-61.03Mb"
-      - 关注tg频道@moneyflychat 速度-62.26Mb"
-      - 关注tg频道@moneyflychat 速度-62.96Mb"
-      - 关注tg频道@moneyflychat 速度- 1.96Mb"
-      - 关注tg频道@moneyflychat 速度-76.90Mb"
-      - 关注tg频道@moneyflychat 速度- 3.20Mb"
-      - 关注tg频道@moneyflychat 速度-64.81Mb"
-      - 关注tg频道@moneyflychat 速度-59.91Mb"
-      - 关注tg频道@moneyflychat 速度-54.63Mb"
-      - 关注tg频道@moneyflychat 速度-60.88Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb"
-      - 关注tg频道@moneyflychat 速度-97.08Mb"
-      - 关注tg频道@moneyflychat 速度-45.36Mb"
-      - 关注tg频道@moneyflychat 速度-59.37Mb"
-      - 关注tg频道@moneyflychat 速度-69.56Mb"
-      - 关注tg频道@moneyflychat 速度-68.93Mb"
-      - 关注tg频道@moneyflychat 速度-102.01Mb"
-      - 关注tg频道@moneyflychat 速度-62.43Mb"
-      - 关注tg频道@moneyflychat 速度-60.76Mb"
-      - 关注tg频道@moneyflychat 速度-13.82Mb"
-      - 关注tg频道@moneyflychat 速度-82.84Mb"
-      - 关注tg频道@moneyflychat 速度-75.01Mb"
-      - 关注tg频道@moneyflychat 速度-72.17Mb"
-      - 关注tg频道@moneyflychat 速度-80.76Mb"
-      - 关注tg频道@moneyflychat 速度-76.24Mb"
-      - 关注tg频道@moneyflychat 速度-75.42Mb"
-      - 关注tg频道@moneyflychat 速度- 2.12Mb"
-      - 关注tg频道@moneyflychat 速度-32.59Mb"
-      - 关注tg频道@moneyflychat 速度-69.83Mb"
-      - 关注tg频道@moneyflychat 速度-67.39Mb"
-      - 关注tg频道@moneyflychat 速度- 2.05Mb"
-      - 关注tg频道@moneyflychat 速度- 3.51Mb"
-      - 关注tg频道@moneyflychat 速度- 2.77Mb"
-      - 关注tg频道@moneyflychat 速度-11.82Mb 2"
-      - 关注tg频道@moneyflychat 速度- 9.95Mb"
-      - 关注tg频道@moneyflychat 速度- 5.29Mb"
-      - 关注tg频道@moneyflychat 速度-23.32Mb"
-      - 关注tg频道@moneyflychat 速度- 7.32Mb"
-      - 关注tg频道@moneyflychat 速度-10.06Mb"
-      - 关注tg频道@moneyflychat 速度-35.49Mb"
-      - 关注tg频道@moneyflychat 速度-23.29Mb"
-      - 关注tg频道@moneyflychat 速度-49.53Mb"
-      - 关注tg频道@moneyflychat 速度- 3.32Mb"
-      - 关注tg频道@moneyflychat 速度-29.11Mb"
-      - 关注tg频道@moneyflychat 速度-58.81Mb"
-      - 关注tg频道@moneyflychat 14.29.124.168:24009
-      - 关注tg频道@moneyflychat 14.29.124.168:25252
-      - 关注tg频道@moneyflychat ""
-      - 关注tg频道@moneyflychat 速度-26.50Mb"
-      - 关注tg频道@moneyflychat 速度-16.80Mb"
+      - TG@moneyflychat 高速节点01
+      - TG@moneyflychat 高速节点02
+      - TG@moneyflychat 高速节点04
+      - TG@moneyflychat 高速节点05
+      - TG@moneyflychat 高速节点07
+      - TG@moneyflychat 高速节点08
+      - TG@moneyflychat 高速节点09
+      - TG@moneyflychat 高速节点10
+      - TG@moneyflychat 高速节点11
+      - TG@moneyflychat 高速节点12
+      - TG@moneyflychat 高速节点13
+      - TG@moneyflychat 高速节点14
+      - TG@moneyflychat 高速节点15
+      - TG@moneyflychat 高速节点16
+      - TG@moneyflychat 高速节点17
+      - TG@moneyflychat 高速节点18
+      - TG@moneyflychat 高速节点19
+      - TG@moneyflychat 高速节点20
+      - TG@moneyflychat 高速节点21
+      - TG@moneyflychat 高速节点22
+      - TG@moneyflychat 高速节点23
+      - TG@moneyflychat 高速节点24
+      - TG@moneyflychat 高速节点25
+      - TG@moneyflychat 高速节点26
+      - TG@moneyflychat 高速节点27
+      - TG@moneyflychat 高速节点28
+      - TG@moneyflychat 高速节点29
+      - TG@moneyflychat 高速节点30
+      - TG@moneyflychat 高速节点31
+      - TG@moneyflychat 高速节点32
+      - TG@moneyflychat 高速节点33
+      - TG@moneyflychat 高速节点34
+      - TG@moneyflychat 高速节点35
+      - TG@moneyflychat 高速节点36
+      - TG@moneyflychat 高速节点37
+      - TG@moneyflychat 高速节点38
+      - TG@moneyflychat 高速节点39
+      - TG@moneyflychat 高速节点40
+      - TG@moneyflychat 高速节点41
+      - TG@moneyflychat 高速节点42
+      - TG@moneyflychat 高速节点43
+      - TG@moneyflychat 高速节点44
+      - TG@moneyflychat 高速节点45
+      - TG@moneyflychat 高速节点46
+      - 高速_241 | 6.42Mb
+      - 高速_228 |15.69Mb
+      - 高速_222 |23.47Mb
+      - 高速_244 |27.45Mb
+      - 高速_220 |20.75Mb
+      - 高速_253 |13.66Mb
+      - 高速_218 |14.13Mb
+      - 高速_221 |32.11Mb
+      - 高速_237 |21.39Mb
+      - 高速_246 |39.02Mb
+      - 高速_248 |33.33Mb
+      - 高速_224 |20.07Mb
+      - 高速_219 |26.99Mb
+      - 高速_256 |40.37Mb
+      - 高速_223 |34.47Mb
+      - 高速_255 |44.96Mb
+      - 高速_254 |38.90Mb
+      - 高速_227 |30.22Mb
+      - 高速_257 |37.21Mb
+      - 高速_240 | 9.00Mb
+      - TG@moneyflychat 高速节点71
+      - TG@moneyflychat 高速节点72
+      - TG@moneyflychat 高速节点73
+      - TG@moneyflychat 高速节点74
+      - TG@moneyflychat 高速节点75
+      - TG@moneyflychat 高速节点76
+      - TG@moneyflychat 高速节点77
+      - TG@moneyflychat 高速节点78
+      - TG@moneyflychat 高速节点79
+      - TG@moneyflychat 高速节点80
+      - TG@moneyflychat 高速节点81
+      - TG@moneyflychat 高速节点82
+      - TG@moneyflychat 高速节点83
+      - TG@moneyflychat 高速节点84
+      - TG@moneyflychat 高速节点85
+      - TG@moneyflychat 高速节点86
+      - TG@moneyflychat 高速节点87
+      - TG@moneyflychat 高速节点88
+      - TG@moneyflychat 高速节点89
+      - TG@moneyflychat 高速节点90
+      - TG@moneyflychat 高速节点91
+      - TG@moneyflychat 高速节点92
+      - TG@moneyflychat 高速节点93
+      - TG@moneyflychat 高速节点94
+      - TG@moneyflychat 高速节点95
+      - TG@moneyflychat 高速节点96
+      - TG@moneyflychat 高速节点97
+      - TG@moneyflychat 高速节点98
+      - TG@moneyflychat 高速节点99
+      - TG@moneyflychat 高速节点100
+      - TG@moneyflychat 高速节点101
+      - TG@moneyflychat 高速节点102
+      - TG@moneyflychat 高速节点103
+      - TG@moneyflychat 高速节点104
+      - TG@moneyflychat 高速节点105
+      - TG@moneyflychat 高速节点106
+      - TG@moneyflychat 高速节点107
+      - TG@moneyflychat 高速节点108
+      - TG@moneyflychat 高速节点109
+      - TG@moneyflychat 高速节点110
+      - TG@moneyflychat 高速节点111
+      - TG@moneyflychat 高速节点112
+      - TG@moneyflychat 高速节点113
+      - TG@moneyflychat 高速节点114
+      - TG@moneyflychat 高速节点115
+      - TG@moneyflychat 高速节点116
+      - TG@moneyflychat 高速节点117
+      - TG@moneyflychat 高速节点118
+      - TG@moneyflychat 高速节点119
+      - TG@moneyflychat 高速节点120
+      - TG@moneyflychat 高速节点121
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10880,716 +11312,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-ad.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youfumei.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youjia2016.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youka.la,🛑 全球拦截
- - DOMAIN-SUFFIX,youle.tom.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youle55.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youmi.net,🛑 全球拦截
- - DOMAIN-SUFFIX,youmsm.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yousee.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youxi.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youxiaoad.com,🛑 全球拦截
- - DOMAIN-SUFFIX,youxicool.net,🛑 全球拦截
- - DOMAIN-SUFFIX,youzehui.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yoyi.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,yoyi.tv,🛑 全球拦截
- - DOMAIN-SUFFIX,ypmeiwen.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ypmob.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yqjxzw.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yqw88.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yrt7dgkf.exashare.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yrxmr.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ysej.code.weddingeeos.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ysjwj.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ysm.hauchi.com.tw,🛑 全球拦截
- - DOMAIN-SUFFIX,ysm.yahoo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yt.mmstat.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ytapi1.nagezan.net,🛑 全球拦截
- - DOMAIN-SUFFIX,ytdksb.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ytguowang.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ytmx.2r3485.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,yts.ytsyyey.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ytsyyey.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yuanming.net,🛑 全球拦截
- - DOMAIN-SUFFIX,yueyelive.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yug8.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yule8.net,🛑 全球拦截
- - DOMAIN-SUFFIX,yulzs.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yumcs.xiaohuau.xyz,🛑 全球拦截
- - DOMAIN-SUFFIX,yun.lvehaisen.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yun.rili.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,yun.sifuhe.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,yun.tuia.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,yun.tuisnake.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yun.yuyiya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yun1.yahoo001.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yunanfuwuqi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yunbofangbt.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yundingjiayuan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yunjiasu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yunshipei.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yunxuu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yuyue008.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ywjxsp168.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,yx.lenovomm.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yxhxs.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yxjad.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yxs.tymsyx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yxszy.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yxxwyz.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yy58ju.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yyb.pc6.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yyffeicd.m.qxs.la,🛑 全球拦截
- - DOMAIN-SUFFIX,yyjxgm.net,🛑 全球拦截
- - DOMAIN-SUFFIX,yyp17.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yyt.irs01.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yzaosite.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yzh.jyjhkz.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yzh360.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yzygo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yzytb.com,🛑 全球拦截
- - DOMAIN-SUFFIX,z.clickvip.shop,🛑 全球拦截
- - DOMAIN-SUFFIX,z.moatads.com,🛑 全球拦截
- - DOMAIN-SUFFIX,z.nowscore.com,🛑 全球拦截
- - DOMAIN-SUFFIX,z.sora.yoyi.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,z1.zedo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,z1hihu.xmcimg.com,🛑 全球拦截
- - DOMAIN-SUFFIX,z2.lnymd.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zads.care2.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zae.gzzena.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zamar.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zampdsp.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zantainet.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zapads.zapak.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zb.nxing.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zbz.m.qxs.la,🛑 全球拦截
- - DOMAIN-SUFFIX,zcdsp.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zcrtd.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zdjby.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zdw.w8.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ze5.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zedo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zeus.qj.net,🛑 全球拦截
- - DOMAIN-SUFFIX,zgc66.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zgdfz6h7po.me,🛑 全球拦截
- - DOMAIN-SUFFIX,zgfszs.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zgjkv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zgksb.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zgty365.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zgunion.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zgyemy.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhanzhang.net,🛑 全球拦截
- - DOMAIN-SUFFIX,zhao258.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhaoshang8.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zh-cn.shenyun.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zh-cn.shenyun.org,🛑 全球拦截
- - DOMAIN-SUFFIX,zheng.cs12d.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhichi08.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhidian3g.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zhifenjie.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhihei.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhihu.xmcimg.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhiong.net,🛑 全球拦截
- - DOMAIN-SUFFIX,zhiyuanteam.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhiziyun.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhongchouyan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhongzicili.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,zhtjdl.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhuanfakong.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhuba8.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhudiaosz.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhushou.2345.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhuuv.maoyumao.net,🛑 全球拦截
- - DOMAIN-SUFFIX,zhwnlapi.etouch.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zhybzp.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zisunion.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zizcy.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zjbdt.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zjhim.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zjjgtz.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zjm.zzmmkj.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zkrdy.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zlongad.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zlsw.nnjxqd.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zmj.guanqinjie.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,znsv.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zo66.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zp22938576.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zpe.klre.18183.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zq84.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zqworks.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zreder.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zrpfk.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zs0613.mengchengbao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zs1111.youzue.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zsdexun.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zshacker.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zst.jzntxs.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zsxpx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zszwcp.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zt2088.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ztidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ztxbd.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zuche321.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zuiceshi.net,🛑 全球拦截
- - DOMAIN-SUFFIX,zuimeitianqi.inveno.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zws.avvo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,img.adnyg.com.w.kunlungr.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.tagtic.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ulogs.umeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zx.baosmx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zxcs.ggwan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zxcs.linghit.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zxh.bzshzx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zxjjzx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zxr.fzxrjx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zxziyuan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zybpj.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zyf.fzdfwy.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zymo.mps.weibo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zymro.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zytwq.net,🛑 全球拦截
- - DOMAIN-SUFFIX,zyz.91friend.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zyz1.91friend.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zz.bdstatic.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zz123.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzbaowen.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzcw.office-mall.net,🛑 全球拦截
- - DOMAIN-SUFFIX,zzjs2.firefang.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zzpush.58.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzrcz.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzy.mipujia.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzy1.mipujia.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzy1.quyaoya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzz7.52896368.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zzzzz4.52896368.com,🛑 全球拦截
- - DOMAIN-SUFFIX,analytics.query.yahoo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,42trck.com,🛑 全球拦截
- - DOMAIN-SUFFIX,51.la,🛑 全球拦截
- - DOMAIN-SUFFIX,adcolony.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adinfuse.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adjust.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adjust.io,🛑 全球拦截
- - DOMAIN-SUFFIX,admaster.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,admob.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adnyg.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adsensor.org,🛑 全球拦截
- - DOMAIN-SUFFIX,adtarget.tech,🛑 全球拦截
- - DOMAIN-SUFFIX,adthor.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adwhirl.com,🛑 全球拦截
- - DOMAIN-SUFFIX,amazon-adsystem.com,🛑 全球拦截
- - DOMAIN-SUFFIX,amobee.com,🛑 全球拦截
- - DOMAIN-SUFFIX,analysys.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,app-adforce.jp,🛑 全球拦截
- - DOMAIN-SUFFIX,appadhoc.com,🛑 全球拦截
- - DOMAIN-SUFFIX,appads.com,🛑 全球拦截
- - DOMAIN-SUFFIX,appier.net,🛑 全球拦截
- - DOMAIN-SUFFIX,applift.com,🛑 全球拦截
- - DOMAIN-SUFFIX,appsflyer.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apsalar.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apxadtracking.net,🛑 全球拦截
- - DOMAIN-SUFFIX,axonix.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cloudmobi.net,🛑 全球拦截
- - DOMAIN-SUFFIX,cnzz.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ctrmi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,flurry.com,🛑 全球拦截
- - DOMAIN-SUFFIX,go2cloud.org,🛑 全球拦截
- - DOMAIN-SUFFIX,growingio.com,🛑 全球拦截
- - DOMAIN-SUFFIX,haloapps.com,🛑 全球拦截
- - DOMAIN-SUFFIX,inmobi.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,inmobi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,inmobi.net,🛑 全球拦截
- - DOMAIN-SUFFIX,inmobicdn.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,irs01.com,🛑 全球拦截
- - DOMAIN-SUFFIX,iskyworker.com,🛑 全球拦截
- - DOMAIN-SUFFIX,kochava.com,🛑 全球拦截
- - DOMAIN-SUFFIX,leadboltmobile.net,🛑 全球拦截
- - DOMAIN-SUFFIX,lenzmx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,liveadvert.com,🛑 全球拦截
- - DOMAIN-SUFFIX,lnk0.com,🛑 全球拦截
- - DOMAIN-SUFFIX,lnk8.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,localytics.com,🛑 全球拦截
- - DOMAIN-SUFFIX,measurementapi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,medialytics.com,🛑 全球拦截
- - DOMAIN-SUFFIX,miaozhen.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mobclix.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mopub.com,🛑 全球拦截
- - DOMAIN-SUFFIX,qchannel01.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,rayjump.com,🛑 全球拦截
- - DOMAIN-SUFFIX,rubiconproject.com,🛑 全球拦截
- - DOMAIN-SUFFIX,scorecardresearch.com,🛑 全球拦截
- - DOMAIN-SUFFIX,sdkclick.com,🛑 全球拦截
- - DOMAIN-SUFFIX,shuzilm.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,smaato.net,🛑 全球拦截
- - DOMAIN-SUFFIX,smartadserver.com,🛑 全球拦截
- - DOMAIN-SUFFIX,smartnews-ads.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tagtic.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,tanv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tanx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,trafficjunky.net,🛑 全球拦截
- - DOMAIN-SUFFIX,turn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,uri6.com,🛑 全球拦截
- - DOMAIN-SUFFIX,voicefive.com,🛑 全球拦截
- - DOMAIN-SUFFIX,vungle.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wedolook.com,🛑 全球拦截
- - DOMAIN-SUFFIX,xdrig.com,🛑 全球拦截
- - DOMAIN-SUFFIX,abema-adx.ameba.jp,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.12306.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.51wnl-cq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.caiyunapp.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.huajiao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.hzyoka.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.jiemian.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.qingting.fm,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.wappalyzer.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad-cn.jovcloud.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adextra.51wnl-cq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.adadapted.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.daydaycook.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.weilitoutiao.net,🛑 全球拦截
- - DOMAIN-SUFFIX,adsapi.manhuaren.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adsdk.dmzj.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adserver.pandora.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adui.tg.meitu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adv.bandi.so,🛑 全球拦截
- - DOMAIN-SUFFIX,goblin.hupu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adx.hupu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adx-api.hupu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adxserver.ad.cmvideo.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,app-ad.variflight.com,🛑 全球拦截
- - DOMAIN-SUFFIX,applog.mobike.com,🛑 全球拦截
- - DOMAIN-SUFFIX,appnext.hs.llnwd.net,🛑 全球拦截
- - DOMAIN-SUFFIX,appnext-a.akamaihd.net,🛑 全球拦截
- - DOMAIN-SUFFIX,ggs.myzaker.com,🛑 全球拦截
- - DOMAIN-SUFFIX,itad.linetv.tw,🛑 全球拦截
- - DOMAIN-SUFFIX,ja.chushou.tv,🛑 全球拦截
- - DOMAIN-SUFFIX,mads.suning.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mopnativeadv.037201.com,🛑 全球拦截
- - DOMAIN-SUFFIX,nativeadv.dftoutiao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,optimus-ads.amap.com,🛑 全球拦截
- - DOMAIN-SUFFIX,sugar.zhihu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,track.tiara.daum.net,🛑 全球拦截
- - DOMAIN-SUFFIX,track.tiara.kakao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,trackapp.guahao.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,traffic.mogujie.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wmlog.meituan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adshow.58.com,🛑 全球拦截
- - DOMAIN-SUFFIX,track.58.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tracklog.58.com,🛑 全球拦截
- - DOMAIN-SUFFIX,iadsdk.apple.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.internal.unity3d.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,🛑 全球拦截
- - DOMAIN-SUFFIX,unityads.unity3d.com,🛑 全球拦截
- - DOMAIN-SUFFIX,acs4baichuan.m.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adash.man.aliyuncs.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adashbc.ut.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adash-c.ut.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adashxgc.ut.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adashx4yt.m.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,h-adashx.ut.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tunion-api.m.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adproxy.autohome.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,rd.autohome.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.k.21cn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,al.autohome.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,applogapi.autohome.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,baidustatic.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cpro.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,pos.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,afd.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,als.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,duclick.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,hm.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,hmma.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mobads.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mobads-logs.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,nsclick.baidu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,applog.musical.ly,🛑 全球拦截
- - DOMAIN-SUFFIX,track.toutiao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,xlog.snssdk.com,🛑 全球拦截
- - DOMAIN-SUFFIX,xlog-va.byteoversea.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adx.yiche.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.ycapp.yiche.com,🛑 全球拦截
- - DOMAIN-SUFFIX,advertise.baicizhan.org,🛑 全球拦截
- - DOMAIN-SUFFIX,advertise.baicizhan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,galaxy.bjcathay.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mdrecv.app.cntvwb.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sdapprecv.app.cntvwb.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,vdapprecv.app.cntvwb.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,admarket.21cn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adshows.21cn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,atrace.chelaile.net.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,logs.chelaile.net.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,doubleclick.net,🛑 全球拦截
- - DOMAIN-SUFFIX,googleadservices.com,🛑 全球拦截
- - DOMAIN-SUFFIX,googleadsserving.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,googlesyndication.com,🛑 全球拦截
- - DOMAIN-SUFFIX,googletagmanager.com,🛑 全球拦截
- - DOMAIN-SUFFIX,googletagservices.com,🛑 全球拦截
- - DOMAIN-SUFFIX,da.mgtv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,da.hunantv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.hunantv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.v2.hunantv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,v2.log.hunantv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ifacelog.iqiyi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,msg.71.am,🛑 全球拦截
- - DOMAIN-SUFFIX,deliver.ifeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,api.newad.ifeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ifengad.3g.ifeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adserviceretry.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.service.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adsfile.bssdlbig.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.stat.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.web.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,kgmobilestat.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,kgmobilestatbak.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mobilelog.kugou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mobilead.kuwo.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,rich.kuwo.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ad-stat.ksosoft.com,🛑 全球拦截
- - DOMAIN-SUFFIX,img.auction-ads.wpscdn.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,counter.ksosoft.com,🛑 全球拦截
- - DOMAIN-SUFFIX,minfo.wps.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,webp2p.letv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ark.letv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,emma-414870e223.huodonghezi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,g3.letv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,n.mark.letv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.intl.xiaomi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.xiaomi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,admob.xiaomi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tracking.miui.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adv.sec.intl.miui.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adv.sec.miui.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tracking.intl.miui.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.api.moji.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adlaunch.moji.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.mojicdn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,v1.log.moji.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.bn.netease.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.yixin.im,🛑 全球拦截
- - DOMAIN-SUFFIX,admusicpic.music.126.net,🛑 全球拦截
- - DOMAIN-SUFFIX,iadmusicmat.music.126.net,🛑 全球拦截
- - DOMAIN-SUFFIX,iadmusicmatvideo.music.126.net,🛑 全球拦截
- - DOMAIN-SUFFIX,impservice.dictapp.youdao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,impservice.youdao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.yex.youdao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log-yex.youdao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,n.3g.163.com,🛑 全球拦截
- - DOMAIN-SUFFIX,nex.163.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yt-adp.nosdn.127.net,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.aplus.pptv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.aplusapi.pptv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,asimgs.pplive.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,de.as.pptv.com,🛑 全球拦截
- - DOMAIN-SUFFIX,regist.fotoable.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cdn.adapi.fotoable.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adnew.wifi8.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adfile.wifi8.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adimg.vue.weibo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,u1.img.mobile.sina.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sax.sina.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,saxs.sina.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,saxn.sina.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.sohu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ads.sohu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,aty.sohu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,imp.optaim.com,🛑 全球拦截
- - DOMAIN-SUFFIX,v2.reachmax.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,track.sohu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,hui.sohu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,bugly.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,e.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,gdt.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,rqd.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adsmind.tc.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,btrace.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mtrace.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,oth.eve.mdt.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,pgdt.gtimg.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,pingma.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,pingtcss.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,splashqqlive.gtimg.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tajs.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,imgadpai.thepaper.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,admonitor.thepaper.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,adsp.xunlei.com,🛑 全球拦截
- - DOMAIN-SUFFIX,etl.xlmc.sandai.net,🛑 全球拦截
- - DOMAIN-SUFFIX,adm.10jqka.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,stat.10jqka.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ad-analysis.pconline.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,iad0ssl.pcauto.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,iad0ssl.pconline.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,imgad0.pcauto.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,imgad0.pconline.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ivy.pchouse.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,adtrack.ucweb.com,🛑 全球拦截
- - DOMAIN-SUFFIX,track.uc.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,alog.umeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,alogs.umeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,alog.umengcloud.com,🛑 全球拦截
- - DOMAIN-SUFFIX,alogs.umengcloud.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ar.umeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,plbslog.umeng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ulogs.umengcloud.com,🛑 全球拦截
- - DOMAIN-SUFFIX,a.wkanx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cwx.lianwangtech.com,🛑 全球拦截
- - DOMAIN-SUFFIX,c1wx.lianwangtech.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.ximalaya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adse.ximalaya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adse.wsa.ximalaya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adbehavior.wsa.ximalaya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apm-track.xiaohongshu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,t-ads.xiaohongshu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,atm.youku.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.mobile.youku.com,🛑 全球拦截
- - DOMAIN-SUFFIX,iyes.youku.com,🛑 全球拦截
- - DOMAIN-SUFFIX,apppv.zol.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,pvnapp.zol.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,17gouwuba.com,🛑 全球拦截
- - DOMAIN-SUFFIX,186078.com,🛑 全球拦截
- - DOMAIN-SUFFIX,189zj.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,285680.com,🛑 全球拦截
- - DOMAIN-SUFFIX,3721zh.com,🛑 全球拦截
- - DOMAIN-SUFFIX,4336wang.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,51chumoping.com,🛑 全球拦截
- - DOMAIN-SUFFIX,51mld.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,51mypc.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,58mingri.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,58mingtian.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,5vl58stm.com,🛑 全球拦截
- - DOMAIN-SUFFIX,6d63d3.com,🛑 全球拦截
- - DOMAIN-SUFFIX,7gg.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,91veg.com,🛑 全球拦截
- - DOMAIN-SUFFIX,9s6q.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,adsame.com,🛑 全球拦截
- - DOMAIN-SUFFIX,aiclk.com,🛑 全球拦截
- - DOMAIN-SUFFIX,akuai.top,🛑 全球拦截
- - DOMAIN-SUFFIX,atplay.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,baiwanchuangyi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,bayimob.com,🛑 全球拦截
- - DOMAIN-SUFFIX,beerto.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,beilamusi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,benshiw.net,🛑 全球拦截
- - DOMAIN-SUFFIX,bianxianmao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,bryonypie.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cishantao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cszlks.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cudaojia.com,🛑 全球拦截
- - DOMAIN-SUFFIX,dafapromo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,daitdai.com,🛑 全球拦截
- - DOMAIN-SUFFIX,dsaeerf.com,🛑 全球拦截
- - DOMAIN-SUFFIX,dugesheying.com,🛑 全球拦截
- - DOMAIN-SUFFIX,dv8c1t.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,echatu.com,🛑 全球拦截
- - DOMAIN-SUFFIX,erdoscs.com,🛑 全球拦截
- - DOMAIN-SUFFIX,fan-yong.com,🛑 全球拦截
- - DOMAIN-SUFFIX,feih.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,fjlqqc.com,🛑 全球拦截
- - DOMAIN-SUFFIX,fkku194.com,🛑 全球拦截
- - DOMAIN-SUFFIX,freedrive.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,gclick.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,goufanli100.com,🛑 全球拦截
- - DOMAIN-SUFFIX,goupaoerdai.com,🛑 全球拦截
- - DOMAIN-SUFFIX,gouwubang.com,🛑 全球拦截
- - DOMAIN-SUFFIX,gzxnlk.com,🛑 全球拦截
- - DOMAIN-SUFFIX,haoshengtoys.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ichaosheng.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ishop789.com,🛑 全球拦截
- - DOMAIN-SUFFIX,jdkic.com,🛑 全球拦截
- - DOMAIN-SUFFIX,jiubuhua.com,🛑 全球拦截
- - DOMAIN-SUFFIX,jwg365.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,kawo77.com,🛑 全球拦截
- - DOMAIN-SUFFIX,kualianyingxiao.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,kumihua.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ltheanine.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,maipinshangmao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,minisplat.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,mkitgfs.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mlnbike.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mobjump.com,🛑 全球拦截
- - DOMAIN-SUFFIX,nbkbgd.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,newapi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,pinzhitmall.com,🛑 全球拦截
- - DOMAIN-SUFFIX,poppyta.com,🛑 全球拦截
- - DOMAIN-SUFFIX,qianchuanghr.com,🛑 全球拦截
- - DOMAIN-SUFFIX,qichexin.com,🛑 全球拦截
- - DOMAIN-SUFFIX,qinchugudao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,quanliyouxi.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,qutaobi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ry51w.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sg536.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifubo.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifuce.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifuda.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifufu.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifuge.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifugu.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifuhe.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifuhu.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifuji.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,sifuka.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,smgru.net,🛑 全球拦截
- - DOMAIN-SUFFIX,taoggou.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tcxshop.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tjqonline.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,topitme.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tt3sm4.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,tuia.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,tuipenguin.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tuitiger.com,🛑 全球拦截
- - DOMAIN-SUFFIX,websd8.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wx16999.com,🛑 全球拦截
- - DOMAIN-SUFFIX,xiaohuau.xyz,🛑 全球拦截
- - DOMAIN-SUFFIX,yinmong.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yiqifa.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yitaopt.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yjqiqi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yukhj.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhaozecheng.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zhenxinet.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zlne800.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zunmi.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,zzd6.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mackeeper.com,🛑 全球拦截
- - DOMAIN-SUFFIX,app-measurement.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mob.com,🛑 全球拦截
- - DOMAIN-SUFFIX,api.joybj.com,🛑 全球拦截
- - DOMAIN-SUFFIX,api.whizzone.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mmstat.com,🛑 全球拦截
- - DOMAIN-SUFFIX,4paradigm.com,🛑 全球拦截
- - DOMAIN-SUFFIX,catch.gift,🛑 全球拦截
- - DOMAIN-SUFFIX,pubnative.net,🛑 全球拦截
- - DOMAIN-SUFFIX,www.googleadservices.com,🛑 全球拦截
- - DOMAIN-SUFFIX,www.google-analytics.com,🛑 全球拦截
- - DOMAIN-SUFFIX,fusion.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ios.bugly.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,wup.imtt.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,tns.simba.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,click.mz.simba.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,click.simba.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,click.tz.simba.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,stat.simba.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,m-adash.m.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,adashbc.m.taobao.com,🛑 全球拦截
- - DOMAIN-SUFFIX,applovin.com,🛑 全球拦截
- - DOMAIN-SUFFIX,applvn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,inner-active.mobi,🛑 全球拦截
- - DOMAIN-SUFFIX,mdfull.com,🛑 全球拦截
- - DOMAIN-SUFFIX,openx.net,🛑 全球拦截
- - DOMAIN-SUFFIX,vidoomy.com,🛑 全球拦截
- - DOMAIN-SUFFIX,flash.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,gs.getui.com,🛑 全球拦截
- - DOMAIN-SUFFIX,log.b612kaji.com,🛑 全球拦截
- - DOMAIN-SUFFIX,beacon.qq.com,🛑 全球拦截
- - DOMAIN-SUFFIX,pgdt.gtimg.com,🛑 全球拦截
- - DOMAIN-SUFFIX,4009997658.com,🛑 全球拦截
- - DOMAIN-SUFFIX,abbyychina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,bartender.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,betterzip.net,🛑 全球拦截
- - DOMAIN-SUFFIX,beyondcompare.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,bingdianhuanyuan.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,chemdraw.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,cjmakeding.com,🛑 全球拦截
- - DOMAIN-SUFFIX,cjmkt.com,🛑 全球拦截
- - DOMAIN-SUFFIX,codesoftchina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,coreldrawchina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,crossoverchina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,easyrecoverychina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ediuschina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,flstudiochina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,formysql.com,🛑 全球拦截
- - DOMAIN-SUFFIX,guitarpro.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,huishenghuiying.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,hypersnap.net,🛑 全球拦截
- - DOMAIN-SUFFIX,iconworkshop.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,imindmap.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,jihehuaban.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,keyshot.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,kingdeecn.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,logoshejishi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mairuan.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,mairuan.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mairuan.com.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,mairuan.net,🛑 全球拦截
- - DOMAIN-SUFFIX,mairuanwang.com,🛑 全球拦截
- - DOMAIN-SUFFIX,makeding.com,🛑 全球拦截
- - DOMAIN-SUFFIX,mathtype.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,mindmanager.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,mindmapper.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,mycleanmymac.com,🛑 全球拦截
- - DOMAIN-SUFFIX,nicelabel.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,ntfsformac.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,ntfsformac.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,overturechina.com,🛑 全球拦截
- - DOMAIN-SUFFIX,passwordrecovery.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,pdfexpert.cc,🛑 全球拦截
- - DOMAIN-SUFFIX,shankejingling.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ultraiso.net,🛑 全球拦截
- - DOMAIN-SUFFIX,vegaschina.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,xmindchina.net,🛑 全球拦截
- - DOMAIN-SUFFIX,xshellcn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yihuifu.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,yuanchengxiezuo.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zbrushcn.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zhzzx.com,🛑 全球拦截
- - DOMAIN-SUFFIX,clotfun.mobi,🛑 全球拦截
- - DOMAIN-SUFFIX,clotfun.online,🛑 全球拦截
- - DOMAIN-SUFFIX,inmobicdn.net,🛑 全球拦截
- - DOMAIN-SUFFIX,meetrics.com,🛑 全球拦截
- - DOMAIN-SUFFIX,meetrics.net,🛑 全球拦截
- - DOMAIN-SUFFIX,okjhb.xyz,🛑 全球拦截
- - DOMAIN-SUFFIX,supersonic.com,🛑 全球拦截
- - DOMAIN-SUFFIX,supersonicads.com,🛑 全球拦截
- - DOMAIN-SUFFIX,zu08e.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.daum.net,🛑 全球拦截
- - DOMAIN-SUFFIX,track.xiachufang.com,🛑 全球拦截
- - DOMAIN-SUFFIX,toots-a.akamaihd.net,🛑 全球拦截
- - DOMAIN-SUFFIX,optimus-ads.amap.com.w.alikunlun.com,🛑 全球拦截
- - DOMAIN-SUFFIX,yt-adp.ws.126.net,🛑 全球拦截
- - DOMAIN-SUFFIX,alog.umeng.co,🛑 全球拦截
- - DOMAIN-SUFFIX,adsebs.ximalaya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.360in.com,🛑 全球拦截
- - DOMAIN-SUFFIX,ad.hpplay.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,adeng.hpplay.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,rp.hpplay.cn,🛑 全球拦截
- - DOMAIN-SUFFIX,adbs.ximalaya.com,🛑 全球拦截
- - DOMAIN-SUFFIX,appcpi.net,🛑 全球拦截
- - DOMAIN-SUFFIX,bulldogcpi.com,🛑 全球拦截
- - DOMAIN-SUFFIX,insurads.com,🛑 全球拦截
- - IP-CIDR,101.227.97.240/32,🛑 全球拦截,no-resolve
- - IP-CIDR,101.227.200.11/32,🛑 全球拦截,no-resolve
- - IP-CIDR,101.227.200.28/32,🛑 全球拦截,no-resolve
- - IP-CIDR,124.192.153.42/32,🛑 全球拦截,no-resolve
- - IP-CIDR,117.177.248.17/32,🛑 全球拦截,no-resolve
- - IP-CIDR,117.177.248.41/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.176.139/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.176.176/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.177.180/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.177.182/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.177.184/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.177.43/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.177.47/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.177.80/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.182.101/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.182.102/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.182.11/32,🛑 全球拦截,no-resolve
- - IP-CIDR,223.87.182.52/32,🛑 全球拦截,no-resolve
- - IP-CIDR,1.3.0.10/32,🛑 全球拦截,no-resolve
- - IP-CIDR,101.201.29.182/32,🛑 全球拦截,no-resolve
- - IP-CIDR,101.251.211.235/32,🛑 全球拦截,no-resolve
- - IP-CIDR,103.249.254.113/32,🛑 全球拦截,no-resolve
- - IP-CIDR,104.195.62.12/32,🛑 全球拦截,no-resolve
- - IP-CIDR,104.197.140.120/32,🛑 全球拦截,no-resolve
- - IP-CIDR,104.198.198.188/32,🛑 全球拦截,no-resolve
- - IP-CIDR,106.187.95.251/32,🛑 全球拦截,no-resolve
- - IP-CIDR,106.75.65.90/32,🛑 全球拦截,no-resolve
- - IP-CIDR,106.75.65.92/32,🛑 全球拦截,no-resolve
- - IP-CIDR,10
