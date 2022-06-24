@@ -5,107 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 高速节点tg@moneyflychat, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 2, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 3, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 4, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 5, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 6, server: dmit1.keaiyun.lol, port: 35711, type: trojan, password: 60c42daa-dd98-4334-9be1-e0133da443f4, sni: dmit1.keaiyun.lol, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 7, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 8, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 64207627-dea7-38c0-b587-089bc1d32801, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 9, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 10, server: dmit1.keaiyun.lol, port: 35713, type: trojan, password: 60c42daa-dd98-4334-9be1-e0133da443f4, sni: dmit1.keaiyun.lol, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 11, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 12, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: 64207627-dea7-38c0-b587-089bc1d32801, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 13, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 965425cb-5d9e-306a-94bf-9961dd0ecf17, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 14, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 5b104b19-679c-30a4-8e5a-cf6f0be5328c, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 15, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 16, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 17, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 18, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: 64207627-dea7-38c0-b587-089bc1d32801, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 19, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 5b104b19-679c-30a4-8e5a-cf6f0be5328c, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 20, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 21, server: azqt001.xiba1.xyz, port: 20734, type: trojan, password: edf44557-5aa8-3af5-8710-634e1516782a, sni: azqt001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 22, server: azhk1.keaiyun.lol, port: 57411, type: trojan, password: 60c42daa-dd98-4334-9be1-e0133da443f4, sni: azhk1.keaiyun.lol, skip-cert-verify: true, udp: true}
+  - {name: 高速节点tg@moneyflychat 23, server: hj001.xiba1.xyz, port: 20762, type: trojan, password: 5b104b19-679c-30a4-8e5a-cf6f0be5328c, sni: hj001.xiba1.xyz, skip-cert-verify: true, udp: true}
   - {name: TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb, server: 120.233.185.189, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
   - {name: TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
   - {name: TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
   - {name: TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb, server: 120.233.185.189, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
   - {name: TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb, server: 120.233.185.189, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb, server: cmforus1.dezxrl.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb, server: cmforus1.dezxrl.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb, server: cnforus2.dezxrl.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb, server: cmforus1.dezxrl.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
   - {name: TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb, server: 120.233.185.189, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb, server: cmforus1.dezxrl.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb, server: cnforus2.dezxrl.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb, server: cnforus2.dezxrl.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb, server: cngzcm.duraker.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb, server: gdzjhk01.tttflix.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 10270:VnpTZrMOIdr_ECt, obfs-param: "", udp: true}
-  - {name: TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb, server: yqy33225.cdn-china.net, port: 33225, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb, server: yqy31128.cdn-china.net, port: 31128, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb, server: yqy1116221.cdn-china.net, port: 16221, type: ssr, cipher: chacha20-ietf, password: http://cc.ax/, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1705659:eqmnaP, obfs-param: data.bilibili.com/d7d7d1705659, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb, server: 120.233.185.189, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: Vm0wd2VHUXhUWGROVldSWVYwZG9WMWx0ZEhkVU1WcDBUVmM1VjAxWGVGWlZNbmhQWVd4YWMxZHFRbUZXVmxsM1ZtMTRZV015VGtsaVJtUnBWa1phZVZkV1pEUlpWMDE0V2toR1UySklRazlWYlRWRFpWWmtWMVZyZEZSTlZUVklWbTAxVDJGR1NuVlJiR2hYWWxSV1JGWkZXbUZXYkdSeVYyeENWMkV3Y0ZSV1ZWcFNaSGM5UFE9PQ, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb, server: gzyd1.xxcv.cc, port: 20120, type: trojan, password: 25c723db-3393-4608-a97d-90c4ba3688cb, sni: gzyd1.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb, server: scloud58.jafiyun.life, port: 22058, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud58.jafiyun.life, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,27 +156,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -155,80 +195,104 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +308,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 高速节点tg@moneyflychat
+      - 高速节点tg@moneyflychat 2
+      - 高速节点tg@moneyflychat 3
+      - 高速节点tg@moneyflychat 4
+      - 高速节点tg@moneyflychat 5
+      - 高速节点tg@moneyflychat 6
+      - 高速节点tg@moneyflychat 7
+      - 高速节点tg@moneyflychat 8
+      - 高速节点tg@moneyflychat 9
+      - 高速节点tg@moneyflychat 10
+      - 高速节点tg@moneyflychat 11
+      - 高速节点tg@moneyflychat 12
+      - 高速节点tg@moneyflychat 13
+      - 高速节点tg@moneyflychat 14
+      - 高速节点tg@moneyflychat 15
+      - 高速节点tg@moneyflychat 16
+      - 高速节点tg@moneyflychat 17
+      - 高速节点tg@moneyflychat 18
+      - 高速节点tg@moneyflychat 19
+      - 高速节点tg@moneyflychat 20
+      - 高速节点tg@moneyflychat 21
+      - 高速节点tg@moneyflychat 22
+      - 高速节点tg@moneyflychat 23
       - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
       - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
       - TG@moneyflychat  中转节点-🇦🇺AU_180 |17.51Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_181 |29.57Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_183 |25.96Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_184 |17.44Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_185 |29.76Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_187 |26.37Mb
       - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_190 |25.83Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_191 |24.74Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_195 |19.16Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_197 |20.66Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_198 |27.31Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_201 |29.69Mb
-      - TG@moneyflychat  中转节点-🇹🇼TW_205 |20.81Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_208 |15.15Mb
-      - TG@moneyflychat  中转节点-🇸🇬SG_210 |22.86Mb
-      - TG@moneyflychat  中转节点-🇯🇵JP_226 |18.46Mb
-      - Relay_🇺🇸US-🇨🇦CA_289 |28.73Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
