@@ -1,0 +1,52 @@
+# 模糊抓取订阅链接
+- type: webfuzzsub
+  options:
+    url: https://ghproxy.futils.com/https://github.com/moneyfly1/sublist/blob/main/sub.list
+
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://raw.iqiq.io/alanbobs999/TopFreeProxies/master/sub/sub_merge_base64.txt
+
+# 网页模糊抓取
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
+- type: jiedian
+  options:
+    url: https://raw.iqiq.io/alanbobs999/TopFreeProxies/master/sub/sub_merge.txt    
+
+# tg频道抓取
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
+- type: tgchannel
+  options:
+    channel: dangzhibu
+    num: 200
+- type: tgchannel
+  options:
+    channel: p2psharing
+    num: 200
+- type: tgchannel
+  options:
+    channel: airproxies
+    num: 200               
+- type: tgchannel
+  options:
+    channel: maxshare
+    num: 200
+# 翻墙党论坛抓取
+- type: web-fanqiangdang
+  options:
+    url: https://fanqiangdang.com/forum-48-1.html
+
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://raw.iqiq.io/moneyfly1/TopFreeProxies/master/sub/sub_merge_yaml.yml
+
+# 某个网站抓取
+- type: web-freessrxyz
+  options:
