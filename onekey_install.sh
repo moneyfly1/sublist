@@ -271,8 +271,8 @@ download_pc(){
     mv proxypool-linux-amd64-v0.6.0 proxypool
     chmod 755 proxypool
 
-    wget https://raw.iqiq.io/lanhebe/proxypool/master/config.yaml
-    wget https://raw.iqiq.io/lanhebe/proxypool/master/source.yaml
+    wget https://raw.iqiq.io/moneyfly1/sublist/main/config.yaml
+    wget https://raw.iqiq.io/moneyfly1/sublist/main/source.yaml
    
     cat > ./config.yaml <<-EOF
     domain: $your_domain
