@@ -5,83 +5,1119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "美国 [A] [V2RAY] [Netflix]", server: qz.cm.01.v2apple.com, port: 50501, type: vmess, uuid: e2d94788-db50-3eae-91f0-b7fce7d37259, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: lax-01.youxiniang.xyz}, udp: true}
-  - {name: "美国 [B] [V2RAY] [Netflix]", server: qz.fj.v2apple.com, port: 50506, type: vmess, uuid: e2d94788-db50-3eae-91f0-b7fce7d37259, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: lax-02.youxiniang.xyz}, udp: true}
-  - {name: G1 新加坡 | 解锁Tiktok | V2RAY隧道 |, server: ingress-i1.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: A0 上海1号-香港HKBGP | V2RAY隧道 |, server: in-hk-1.iivvppnn.info, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: A0 广州1号-香港HKBGP | V2RAY隧道 |, server: in-hk-2.iivvppnn.info, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: A1 上海1号-香港HKBN | V2RAY 隧道 |, server: ingress-i1.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: A1 广州1号-香港HKBN | V2RAY 隧道 |, server: ingress-i2.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: A2 上海1号-香港WTT商宽 | V2RAY 隧道 |, server: in-hk-2.iivvppnn.info, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: A2 广州1号-香港WTT商宽 | V2RAY 隧道 |, server: 120.240.55.137, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: B0 上海1号-香港HKT打机线 | V2RAY隧道 |, server: ingress-i1.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: B0 广州1号-香港HKT打机线 | V2RAY隧道 |, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: B8 上海1号-台湾HINET | V2RAY隧道 |, server: in-tw-1.iivvppnn.info, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: C1 日本AWS | 三网用户 | V2RAY 隧道 |, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: D1 美国AWS | 三网用户 | V2RAY 隧道 |, server: in-us-1.iivvppnn.info, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
-  - {name: G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2, server: 120.240.55.137, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
+  - {name: T荷兰1, server: v19.heduian.online, port: 51024, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: T荷兰1 2, server: v12.heduian.online, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 美国1, server: v4.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 美国2, server: v24.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 美国3, server: v29.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 美国4, server: v32.heduian.online, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 荷兰2, server: v10.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 荷兰3, server: v11.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 韩国1, server: v9.heduian.online, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 香港1, server: v7.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 香港2, server: v37.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 日本2中转, server: v8.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: "美国5[中转]", server: v33.heduian.online, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 英国1, server: v36.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 荷兰4, server: v38.heduian.online, port: 30866, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: "韩国2[动态端口_Netflix]", server: v25.heduian.online, port: 51024, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: "香港4[中转]", server: v30.heduian.online, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: "香港5[中转]", server: v19.heduian.online, port: 51024, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: RU 9, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: CN 29, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: CA 49, server: ca-trojan.bonds.id, port: 443, type: trojan, password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, sni: ca-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: SG 69, server: sghe.tjvpn.org, port: 443, type: trojan, password: 253152b0-e018-11ec-b935-225401db9d57, sni: sghe.tjvpn.org, skip-cert-verify: true, udp: true}
+  - {name: JP 120, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU 134, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 139, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus3.0bad.com}, udp: true}
+  - {name: US 140, server: 169.197.141.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: UN 146, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
+  - {name: KR 168, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 191, server: ssrfree10.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: AU 232, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN 235, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: SfobRIcergHchqBFzzua, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: CN 236, server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: SfobRIcergHchqBFzzua, sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: CZ 237, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: CZ 238, server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: FR 241, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US 248, server: api.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, sni: api.mjj-home.com, skip-cert-verify: true, udp: true}
+  - {name: JP 261, server: tky3.ssgnode.ga, port: 443, type: trojan, password: bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: JP 262, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: KR 264, server: jgw4.gaox.ml, port: 443, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, sni: jgw4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: KR 265, server: kr1.api-aws.com, port: 443, type: trojan, password: 1f9e7c79-ce39-44f3-bdbd-90ea117629b3, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
+  - {name: KR 269, server: jgw3.gaox.ml, port: 443, type: trojan, password: a1718180-d616-4b71-9bb6-3e96ba20f921, sni: jgw3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: NL 271, server: nl-trojan.bonds.id, port: 443, type: trojan, password: 96884680-77e6-11eb-8d67-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: JP 273, server: www.tokyo2023.ga, port: 443, type: trojan, password: 4f7dc540-d244-4e64-af21-4b5bb300add3, sni: www.tokyo2023.ga, skip-cert-verify: true, udp: true}
+  - {name: HK 276, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga, skip-cert-verify: true, udp: true}
+  - {name: SG 281, server: 81.90.189.85, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: SG 283, server: sg3-trojan.bonds.id, port: 443, type: trojan, password: 4c7985e0-79e8-11eb-b8d3-1239d0255272, sni: sg3-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: SG 285, server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: CZ 295, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: CZ 296, server: ce.rutracker-cn.com, port: 443, type: trojan, password: 5y8y3CwxRVYhyfSY, sni: ce.rutracker-cn.com, skip-cert-verify: true, udp: true}
+  - {name: CZ 297, server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: CZ 298, server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: CZ 299, server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: US 309, server: xioix.gq, port: 443, type: trojan, password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363, sni: xioix.gq, skip-cert-verify: true, udp: true}
+  - {name: IN 310, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 314, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP 315, server: jgwdb2.gaox.ml, port: 443, type: trojan, password: c19d1432-8b3e-4818-8837-3d160cf65908, sni: jgwdb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 316, server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US 317, server: 209.141.47.137, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, skip-cert-verify: true, udp: true}
+  - {name: IN 322, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: IN 323, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG 326, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: US 327, server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 328, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: SG 330, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloao.cf, skip-cert-verify: true, udp: true}
+  - {name: GB 331, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 335, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: KR 336, server: hg.053111.xyz, port: 443, type: trojan, password: d4435b69-3d08-d58a-919f-7f1707150ecb, sni: hg.053111.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 337, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: true, udp: true}
+  - {name: US 340, server: vus5.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus5.0bad.com}, udp: true}
+  - {name: JP 343, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: KR 344, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: AU 346, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: DE 349, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
+  - {name: KR 353, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: DE 384, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
+  - {name: US 387, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: KR 388, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: JP 389, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: KR 391, server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: US 392, server: lu1.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: lu1.gogogoo.cyou}, udp: true}
+  - {name: JP 403, server: 138.2.15.23, port: 46370, type: vmess, uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 406, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-sg-1.onebox6.org}, udp: true}
+  - {name: CN 408, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: JP 458, server: jgwdb4.gaox.ml, port: 443, type: trojan, password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2, sni: jgwdb4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US 463, server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: UN 522, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxsg.fovi.tk}, udp: true}
+  - {name: AU 582, server: 185.167.116.253, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: AU 584, server: 45.77.48.44, port: 8099, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D, udp: true}
+  - {name: SE 593, server: 196.196.156.122, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA 596, server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA 598, server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA 599, server: 196.247.59.156, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA 600, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: CN 603, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 604, server: 14.29.124.174, port: 11016, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 605, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 606, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 607, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 608, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 609, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 610, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 611, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 612, server: 14.29.124.174, port: 11033, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 613, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 616, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 617, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 620, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 622, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 624, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 625, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 626, server: 14.29.124.174, port: 11008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 627, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 628, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 630, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 631, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 632, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 633, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 634, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 635, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 636, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 638, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 641, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 642, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 644, server: 14.29.124.174, port: 11012, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 646, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 647, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 648, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 649, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 651, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 653, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 654, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 655, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 656, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 657, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 658, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 662, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN 664, server: 14.29.124.168, port: 24001, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CY 669, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: DE 673, server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: DE 674, server: 85.114.138.92, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: DE 676, server: 193.108.118.36, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: DE 677, server: 193.108.117.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: DE 678, server: 193.108.118.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: DE 681, server: 93.186.201.158, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: DE 682, server: 93.186.201.124, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: DE 683, server: 193.108.117.75, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR 688, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: FR 689, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR 690, server: 145.239.1.100, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: FR 691, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR 692, server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: GB 693, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB 695, server: 178.62.16.161, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: AE 698, server: 109.169.72.249, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: GB 699, server: 82.145.41.125, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR 701, server: 163.172.110.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: EE 703, server: 37.252.5.234, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: HK 710, server: 148.66.56.99, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 711, server: 148.66.56.99, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 712, server: 148.66.56.99, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 713, server: 148.66.56.99, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: IT 726, server: 84.33.193.79, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3, udp: true}
+  - {name: JP 727, server: 45.66.134.176, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP 728, server: 89.31.126.150, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BG 743, server: 213.183.63.218, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: BG 745, server: 213.183.63.221, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: RU 746, server: 213.183.53.179, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: RU 747, server: 213.183.53.202, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: RU 748, server: 213.183.53.208, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: NL 756, server: 213.183.51.172, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: NL 757, server: 213.183.59.229, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: JP 759, server: 85.208.108.18, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: NL 761, server: 213.183.59.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: JP 762, server: 85.208.108.90, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP 765, server: 85.208.108.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP 766, server: 85.208.108.58, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: JP 767, server: 85.208.108.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: NL 769, server: 51.15.0.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: NL 772, server: 91.232.105.253, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: PL 776, server: 51.77.53.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: HK 778, server: 62.216.92.167, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 779, server: 193.239.87.134, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 780, server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 782, server: 62.216.92.167, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 783, server: 62.216.92.167, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 784, server: 62.216.92.167, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 785, server: 62.216.92.167, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 786, server: 62.216.92.167, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 787, server: 62.216.92.167, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK 788, server: 62.216.92.167, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: RS 789, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: PL 790, server: 217.30.10.63, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: PL 791, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: PL 792, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: PL 795, server: 217.30.10.64, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: RU 797, server: 83.217.9.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: RU 799, server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3, udp: true}
+  - {name: RU 800, server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst, udp: true}
+  - {name: SG 803, server: 217.197.161.138, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG 804, server: 217.197.161.136, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG 806, server: 81.90.189.184, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: TW 816, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}, udp: true}
+  - {name: US 821, server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB 822, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US 823, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US 824, server: 38.121.43.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US 826, server: 38.86.135.36, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: GB 827, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: GB 828, server: 172.99.190.61, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US 829, server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US 830, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US 831, server: 38.68.134.48, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US 832, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US 833, server: 38.107.226.146, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US 834, server: 38.86.135.27, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US 835, server: 38.68.134.85, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US 836, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: NL 841, server: 172.99.188.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US 844, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US 845, server: 38.114.114.67, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US 846, server: 38.114.114.69, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: GB 850, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US 852, server: 38.91.107.225, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: GB 853, server: 172.99.190.7, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US 854, server: 167.88.61.2, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 856, server: 38.68.134.196, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: NL 857, server: 172.99.188.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US 858, server: 167.88.61.213, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US 859, server: 38.114.114.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US 860, server: 167.88.61.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US 861, server: 142.202.48.7, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US 862, server: 38.68.134.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US 863, server: 162.251.61.221, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 865, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US 866, server: 38.143.66.55, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US 868, server: 38.143.66.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US 870, server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US 872, server: 38.86.135.169, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US 873, server: 38.91.100.207, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US 874, server: 38.75.137.9, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US 875, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US 876, server: 38.107.226.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US 877, server: 167.88.63.59, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US 878, server: 167.88.61.50, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US 883, server: 38.68.134.9, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US 887, server: 38.143.66.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US 888, server: 167.88.63.44, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US 890, server: 167.88.62.62, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US 891, server: 37.120.219.218, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 892, server: 167.88.63.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US 893, server: 38.75.136.135, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: DE 895, server: 161.35.69.20, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: US 896, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US 897, server: 38.107.226.238, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US 900, server: 162.251.61.47, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 901, server: 38.68.134.135, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 902, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: SG 903, server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4, udp: true}
+  - {name: US 904, server: 38.114.114.143, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US 907, server: 167.88.61.236, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 925, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus2.0bad.com}, udp: true}
+  - {name: CA 941, server: 134.195.196.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US 942, server: 169.197.141.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA 943, server: 134.195.198.95, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA 948, server: 134.195.196.231, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA 950, server: 134.195.196.107, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: SG 951, server: 103.172.116.8, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: US 952, server: 169.197.142.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: SG 953, server: 103.172.116.7, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: US 955, server: 169.197.142.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US 956, server: 169.197.141.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA 957, server: 134.195.196.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA 959, server: 134.195.196.19, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CN 979, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,96 +1136,1127 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
+      - 香港1
+      - 香港2
+      - 香港4[中转]
+      - 香港5[中转]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,21 +2272,280 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国 [A] [V2RAY] [Netflix]
-      - 美国 [B] [V2RAY] [Netflix]
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 |
-      - A0 上海1号-香港HKBGP | V2RAY隧道 |
-      - A0 广州1号-香港HKBGP | V2RAY隧道 |
-      - A1 上海1号-香港HKBN | V2RAY 隧道 |
-      - A1 广州1号-香港HKBN | V2RAY 隧道 |
-      - A2 上海1号-香港WTT商宽 | V2RAY 隧道 |
-      - A2 广州1号-香港WTT商宽 | V2RAY 隧道 |
-      - B0 上海1号-香港HKT打机线 | V2RAY隧道 |
-      - B0 广州1号-香港HKT打机线 | V2RAY隧道 |
-      - B8 上海1号-台湾HINET | V2RAY隧道 |
-      - C1 日本AWS | 三网用户 | V2RAY 隧道 |
-      - D1 美国AWS | 三网用户 | V2RAY 隧道 |
-      - G1 新加坡 | 解锁Tiktok | V2RAY隧道 | 2
+      - T荷兰1
+      - T荷兰1 2
+      - 美国1
+      - 美国2
+      - 美国3
+      - 美国4
+      - 荷兰2
+      - 荷兰3
+      - 韩国1
+      - 香港1
+      - 香港2
+      - 日本2中转
+      - 美国5[中转]
+      - 英国1
+      - 荷兰4
+      - 韩国2[动态端口_Netflix]
+      - 香港4[中转]
+      - 香港5[中转]
+      - RU 9
+      - CN 29
+      - CA 49
+      - SG 69
+      - JP 120
+      - AU 134
+      - US 139
+      - US 140
+      - UN 146
+      - KR 168
+      - US 191
+      - AU 232
+      - CN 235
+      - CN 236
+      - CZ 237
+      - CZ 238
+      - FR 241
+      - US 248
+      - JP 261
+      - JP 262
+      - KR 264
+      - KR 265
+      - KR 269
+      - NL 271
+      - JP 273
+      - HK 276
+      - SG 281
+      - SG 283
+      - SG 285
+      - CZ 295
+      - CZ 296
+      - CZ 297
+      - CZ 298
+      - CZ 299
+      - US 309
+      - IN 310
+      - US 314
+      - JP 315
+      - US 316
+      - US 317
+      - IN 322
+      - IN 323
+      - SG 326
+      - US 327
+      - US 328
+      - SG 330
+      - GB 331
+      - US 335
+      - KR 336
+      - US 337
+      - US 340
+      - JP 343
+      - KR 344
+      - AU 346
+      - DE 349
+      - KR 353
+      - DE 384
+      - US 387
+      - KR 388
+      - JP 389
+      - KR 391
+      - US 392
+      - JP 403
+      - CN 406
+      - CN 408
+      - JP 458
+      - US 463
+      - UN 522
+      - AU 582
+      - AU 584
+      - SE 593
+      - CA 596
+      - CA 598
+      - CA 599
+      - CA 600
+      - CN 603
+      - CN 604
+      - CN 605
+      - CN 606
+      - CN 607
+      - CN 608
+      - CN 609
+      - CN 610
+      - CN 611
+      - CN 612
+      - CN 613
+      - CN 616
+      - CN 617
+      - CN 620
+      - CN 622
+      - CN 624
+      - CN 625
+      - CN 626
+      - CN 627
+      - CN 628
+      - CN 630
+      - CN 631
+      - CN 632
+      - CN 633
+      - CN 634
+      - CN 635
+      - CN 636
+      - CN 638
+      - CN 641
+      - CN 642
+      - CN 644
+      - CN 646
+      - CN 647
+      - CN 648
+      - CN 649
+      - CN 651
+      - CN 653
+      - CN 654
+      - CN 655
+      - CN 656
+      - CN 657
+      - CN 658
+      - CN 662
+      - CN 664
+      - CY 669
+      - DE 673
+      - DE 674
+      - DE 676
+      - DE 677
+      - DE 678
+      - DE 681
+      - DE 682
+      - DE 683
+      - FR 688
+      - FR 689
+      - FR 690
+      - FR 691
+      - FR 692
+      - GB 693
+      - GB 695
+      - AE 698
+      - GB 699
+      - FR 701
+      - EE 703
+      - HK 710
+      - HK 711
+      - HK 712
+      - HK 713
+      - IT 726
+      - JP 727
+      - JP 728
+      - BG 743
+      - BG 745
+      - RU 746
+      - RU 747
+      - RU 748
+      - NL 756
+      - NL 757
+      - JP 759
+      - NL 761
+      - JP 762
+      - JP 765
+      - JP 766
+      - JP 767
+      - NL 769
+      - NL 772
+      - PL 776
+      - HK 778
+      - US 779
+      - HK 780
+      - HK 782
+      - HK 783
+      - HK 784
+      - HK 785
+      - HK 786
+      - HK 787
+      - HK 788
+      - RS 789
+      - PL 790
+      - PL 791
+      - PL 792
+      - PL 795
+      - RU 797
+      - RU 799
+      - RU 800
+      - SG 803
+      - SG 804
+      - SG 806
+      - TW 816
+      - US 821
+      - GB 822
+      - US 823
+      - US 824
+      - US 826
+      - GB 827
+      - GB 828
+      - US 829
+      - US 830
+      - US 831
+      - US 832
+      - US 833
+      - US 834
+      - US 835
+      - US 836
+      - NL 841
+      - US 844
+      - US 845
+      - US 846
+      - GB 850
+      - US 852
+      - GB 853
+      - US 854
+      - US 856
+      - NL 857
+      - US 858
+      - US 859
+      - US 860
+      - US 861
+      - US 862
+      - US 863
+      - US 865
+      - US 866
+      - US 868
+      - US 870
+      - US 872
+      - US 873
+      - US 874
+      - US 875
+      - US 876
+      - US 877
+      - US 878
+      - US 883
+      - US 887
+      - US 888
+      - US 890
+      - US 891
+      - US 892
+      - US 893
+      - DE 895
+      - US 896
+      - US 897
+      - US 900
+      - US 901
+      - US 902
+      - SG 903
+      - US 904
+      - US 907
+      - US 925
+      - CA 941
+      - US 942
+      - CA 943
+      - CA 948
+      - CA 950
+      - SG 951
+      - US 952
+      - SG 953
+      - US 955
+      - US 956
+      - CA 957
+      - CA 959
+      - CN 979
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
