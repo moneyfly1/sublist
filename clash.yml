@@ -5,191 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _SG_新加坡_183, server: 18.142.44.79, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: moneyfly中国_92, server: 223.167.41.222, port: 63088, type: vmess, uuid: 33d04ad6-c7da-3ba1-8941-3845978209a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 223.167.41.222}, udp: true}
-  - {name: moneyfly中国_106, server: 223.167.41.41, port: 63087, type: vmess, uuid: 33d04ad6-c7da-3ba1-8941-3845978209a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本_182, server: 43.206.240.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: moneyfly中国_93, server: 14.116.151.100, port: 63005, type: vmess, uuid: 33d04ad6-c7da-3ba1-8941-3845978209a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: moneyfly中国_49, server: 223.111.129.116, port: 63086, type: vmess, uuid: 311f3c4b-90a1-3c5c-a4fe-215cc7c90d02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: moneyfly中国_120, server: 223.167.41.41, port: 63086, type: vmess, uuid: 33d04ad6-c7da-3ba1-8941-3845978209a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_162, server: 192.74.242.139, port: 44667, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: moneyfly中国_11, server: relay-hk-vip-1.nxunfan.com, port: 11432, type: vmess, uuid: 8261f72e-785e-4f6c-817d-f46e939f8db1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本西 01 | AZ直连, server: azrb.untilmu.com, port: 16627, type: trojan, password: 471a37b6-2ad9-48fa-8683-08fd2747608e, sni: azrb.untilmu.com, skip-cert-verify: true, udp: true}
-  - {name: 韩国 01 | AZ直连, server: azkr.untilmu.com, port: 16627, type: trojan, password: 471a37b6-2ad9-48fa-8683-08fd2747608e, sni: azkr.untilmu.com, skip-cert-verify: true, udp: true}
-  - {name: 香港 01 | AZ直连, server: azhk.untilmu.com, port: 16627, type: vmess, uuid: 471a37b6-2ad9-48fa-8683-08fd2747608e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /azhk, ws-headers: {Host: azhk.untilmu.com}, udp: true}
-  - {name: 日本 01 | AZ直连, server: azjp.untilmu.com, port: 16627, type: vmess, uuid: 471a37b6-2ad9-48fa-8683-08fd2747608e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /azjp, ws-headers: {Host: azjp.untilmu.com}, udp: true}
-  - {name: 新加坡 01 | AZ直连, server: sg.musekidan.com, port: 16627, type: vmess, uuid: 471a37b6-2ad9-48fa-8683-08fd2747608e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sg, ws-headers: {Host: sg.musekidan.com}, udp: true}
-  - {name: 日本 01 | GCP直连, server: gcpjp.musekidan.com, port: 16627, type: vmess, uuid: 471a37b6-2ad9-48fa-8683-08fd2747608e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sg, ws-headers: {Host: gcpjp.musekidan.com}, udp: true}
-  - {name: 台湾 01 | GCP直连, server: gcptw.musekidan.com, port: 16607, type: vmess, uuid: 471a37b6-2ad9-48fa-8683-08fd2747608e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sg, ws-headers: {Host: gcptw.musekidan.com}, udp: true}
-  - {name: _SG_新加坡, server: 13.215.194.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _AU_澳大利亚 2, server: wangqifei.tk, port: 59973, type: trojan, password: S1k6yPgFhc, sni: wangqifei.tk, skip-cert-verify: true, udp: true}
-  - {name: _US_美国->🇳🇱_NL_荷兰, server: scaleway.696960.xyz, port: 443, type: vmess, uuid: e357cd63-f1a5-4c8e-c42e-26da11207fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /root/, ws-headers: {Host: scaleway.696960.xyz}, udp: true}
-  - {name: _US_美国 9, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vsg1.0bad.com}, udp: true}
-  - {name: _DE_德国, server: 193.108.118.34, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _DE_德国 2, server: 193.108.118.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _DE_德国 3, server: 193.108.118.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _FR_法国->🇳🇴_NO_挪威, server: 135.125.244.103, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: _US_美国 11, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
-  - {name: _JP_日本->🇦🇺_AU_澳大利亚, server: ap.stablize.top, port: 443, type: trojan, password: 10f94506-9bf9-4dbb-9542-3ff13893b190, sni: ap.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡 2, server: uk.stablize.top, port: 443, type: trojan, password: 9014ea56-3fec-43d8-bed6-af7bcb5e2cb3, sni: uk.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡 3, server: ca.stablize.top, port: 443, type: trojan, password: 10f94506-9bf9-4dbb-9542-3ff13893b190, sni: ca.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 13, server: 143.42.99.183, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: 143.42.99.183}, udp: true}
-  - {name: _SG_新加坡->🇯🇵_JP_日本, server: jp.stablize.top, port: 443, type: trojan, password: 10f94506-9bf9-4dbb-9542-3ff13893b190, sni: jp.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本 2, server: jp2.ulifeai.com, port: 443, type: vmess, uuid: 168b4363-92b4-4994-a4e8-9e4f5015b48c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /52566/, ws-headers: {Host: jp2.ulifeai.com}, udp: true}
-  - {name: 新加坡 - 1, server: sg-1.vuex.eu.org, port: 8890, type: vmess, uuid: 19058fa6-19c3-4bc5-b34c-5c735fd6c4ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg-1.vuex.eu.org}, udp: true}
-  - {name: 韩国 - 1, server: kr-1.vuex.eu.org, port: 9898, type: vmess, uuid: 19058fa6-19c3-4bc5-b34c-5c735fd6c4ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr-1.vuex.eu.org}, udp: true}
-  - {name: 韩国 - 2, server: kr-2.vuex.eu.org, port: 9898, type: vmess, uuid: 19058fa6-19c3-4bc5-b34c-5c735fd6c4ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr-2.vuex.eu.org}, udp: true}
-  - {name: 韩国 - 3, server: kr-3.vuex.eu.org, port: 8890, type: vmess, uuid: 19058fa6-19c3-4bc5-b34c-5c735fd6c4ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr-3.vuex.eu.org}, udp: true}
-  - {name: 韩国 - 5, server: kr-5.vuex.eu.org, port: 8888, type: vmess, uuid: 19058fa6-19c3-4bc5-b34c-5c735fd6c4ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr-5.vuex.eu.org}, udp: true}
-  - {name: 日本 - 2, server: jp-2.vuex.eu.org, port: 8890, type: vmess, uuid: 19058fa6-19c3-4bc5-b34c-5c735fd6c4ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp-2.vuex.eu.org}, udp: true}
-  - {name: 香港②, server: li1hkv2b.559xp5.cn, port: 443, type: trojan, password: b41ad3b3-1880-4120-8708-25d964ecd723, sni: li1hkv2b.559xp5.cn, skip-cert-verify: true, udp: true}
-  - {name: 日本①|解锁, server: lixiyjp12gvabkmno.559xp5.cn, port: 443, type: trojan, password: b41ad3b3-1880-4120-8708-25d964ecd723, sni: lixiyjp12gvabkmno.559xp5.cn, skip-cert-verify: true, udp: true}
-  - {name: 日本②, server: li1faiubsvdnasjp2.559xp5.cn, port: 443, type: trojan, password: b41ad3b3-1880-4120-8708-25d964ecd723, sni: li1faiubsvdnasjp2.559xp5.cn, skip-cert-verify: true, udp: true}
-  - {name: 瑞典|解锁, server: lisef2vvbbjfkr.559xp5.cn, port: 443, type: trojan, password: b41ad3b3-1880-4120-8708-25d964ecd723, sni: lisef2vvbbjfkr.559xp5.cn, skip-cert-verify: true, udp: true}
-  - {name: 菲律宾, server: bacmlwrkoph.559xp5.cn, port: 443, type: trojan, password: b41ad3b3-1880-4120-8708-25d964ecd723, sni: bacmlwrkoph.559xp5.cn, skip-cert-verify: true, udp: true}
+  - {name: "🇮🇳Hyderabad-1959-330", server: 152.70.74.66, port: 443, type: trojan, password: d906afe5-7c3c-4ddc-aaa4-61c154a82e5e, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸Clifton-1672-545", server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, sni: us.blazeppn.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇦Toronto-2385-115", server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /speedtest, ws-headers: {Host: Amsterdam.v2ray.online}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,198 +52,39 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 01 | AZ直连
-      - 台湾 01 | GCP直连
-      - 香港②
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -415,48 +100,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _SG_新加坡_183
-      - moneyfly中国_92
-      - moneyfly中国_106
-      - _JP_日本_182
-      - moneyfly中国_93
-      - moneyfly中国_49
-      - moneyfly中国_120
-      - _US_美国_162
-      - moneyfly中国_11
-      - 日本西 01 | AZ直连
-      - 韩国 01 | AZ直连
-      - 香港 01 | AZ直连
-      - 日本 01 | AZ直连
-      - 新加坡 01 | AZ直连
-      - 日本 01 | GCP直连
-      - 台湾 01 | GCP直连
-      - _SG_新加坡
-      - _AU_澳大利亚 2
-      - _US_美国->🇳🇱_NL_荷兰
-      - _US_美国 9
-      - _DE_德国
-      - _DE_德国 2
-      - _DE_德国 3
-      - _FR_法国->🇳🇴_NO_挪威
-      - _US_美国 11
-      - _JP_日本->🇦🇺_AU_澳大利亚
-      - _SG_新加坡 2
-      - _SG_新加坡 3
-      - _US_美国 13
-      - _SG_新加坡->🇯🇵_JP_日本
-      - _JP_日本 2
-      - 新加坡 - 1
-      - 韩国 - 1
-      - 韩国 - 2
-      - 韩国 - 3
-      - 韩国 - 5
-      - 日本 - 2
-      - 香港②
-      - 日本①|解锁
-      - 日本②
-      - 瑞典|解锁
-      - 菲律宾
+      - "🇮🇳Hyderabad-1959-330"
+      - "🇺🇸Clifton-1672-545"
+      - "🇨🇦Toronto-2385-115"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
